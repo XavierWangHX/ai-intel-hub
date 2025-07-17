@@ -15,7 +15,7 @@ html, body {
     /* Keep smooth scrolling */
     scroll-behavior: smooth;
     /* Replace radial dark gray with animated multi-stop gradient */
-    background: linear-gradient(45deg, #1a1a2e, #08192f, #0f2351, #1a1a2e);
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460, #1a1a2e);
     background-size: 400% 400%;
     animation: gradientBG 20s ease infinite;
 }
@@ -30,6 +30,29 @@ body {
     position: relative !important;
     background-color: #121212 !important;
     padding-top: 40px;
+    overflow-x: hidden; /* 防止水平滚动 */
+}
+
+/* 页面容器样式 - 支持隐藏式页面切换 */
+.page-container {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.page-container.page-hidden {
+    display: none;
+}
+
+.page-container.page-fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.page-container.page-fade-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 body::before {
@@ -39,7 +62,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./static/powerful_wizard.png');
+    background-image: url('./static/seres.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -55,12 +78,29 @@ body::before {
     height: calc(100vh - 40px);
     text-align: center;
     padding: 0 20px;
-    margin-top: 0; /* Removed top margin that compensated for the top bar */
+    margin-top: 0;
 }
 
 .landing h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.landing p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    max-width: 800px;
+    padding: 0 25px 0 25px;
+    margin: auto auto 1rem auto;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.landing p:last-of-type {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
     margin-bottom: 2rem;
 }
 
@@ -70,14 +110,6 @@ body::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-}
-
-.landing p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    max-width: 1000px;
-    padding: 0 25px 0 25px;
-    margin: auto auto 2rem auto;
 }
 
 .landing-description {
@@ -94,10 +126,223 @@ body::before {
 }
 
 .container:hover {
-    /* Uncomment this to enable hover zoom effect (transform scale effect).
-        This is not recommended because it can be obnoxious on desktop, and straight up unusable on mobile. */
-    /* transform: scale(1.01); */
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* 功能卡片容器样式 - 始终并排显示 */
+.feature-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* 减小间距以适应移动端 */
+    margin: 40px 0;
+    padding: 0 10px; /* 减小边距 */
+    flex-wrap: nowrap; /* 强制不换行，始终并排显示 */
+}
+
+/* 功能卡片样式 - 自适应大小 */
+.feature-card {
+    /* 使用flex属性实现自适应 */
+    flex: 1 1 0; /* 平均分配空间，最小基础宽度为0 */
+    
+    /* 设定尺寸限制 */
+    min-width: 60px; /* 移动端最小宽度 */
+    max-width: 350px; /* 桌面端最大宽度 */
+    
+    /* 美化样式 */
+    background: rgba(20, 20, 30, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px; /* 稍微减小圆角以适应小屏幕 */
+    padding: 15px 10px; /* 调整内边距 */
+    text-align: center;
+    border: 2px solid rgba(78, 157, 221, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at top right, rgba(78, 157, 221, 0.1), transparent 70%);
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(78, 157, 221, 0.6);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.feature-card.active {
+    border-color: #4E9DDD;
+    box-shadow: 0 0 25px rgba(78, 157, 221, 0.4);
+    background: rgba(30, 30, 40, 0.9);
+}
+
+.feature-icon {
+    width: 60px; /* 减小图标尺寸 */
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px; /* 减小底部间距 */
+    font-size: 14px; /* 减小图标字体大小 */
+    color: white;
+    box-shadow: 0 5px 15px rgba(78, 157, 221, 0.3);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(78, 157, 221, 0.4);
+}
+
+.feature-title {
+    font-size: 18px; /* 减小标题字体大小 */
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px; /* 减小底部间距 */
+    line-height: 1.2; /* 添加行高以防止文字重叠 */
+}
+
+
+
+/* 功能选项面板 */
+.feature-options {
+    display: none;
+    margin-top: 30px;
+    padding: 25px;
+    background: rgba(30, 30, 40, 0.9);
+    border-radius: 15px;
+    border: 1px solid rgba(78, 157, 221, 0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.feature-options.active {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 深度研究选项 */
+.research-options {
+    text-align: center;
+}
+
+.research-input {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    border: 2px solid rgba(78, 157, 221, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    font-size: 16px;
+    resize: vertical;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.research-input:focus {
+    border-color: #4E9DDD;
+    outline: none;
+    box-shadow: 0 0 10px rgba(78, 157, 221, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.research-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* 竞品对比选项 */
+.comparison-options {
+    text-align: center;
+}
+
+.car-select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid rgba(78, 157, 221, 0.3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234E9DDD' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.car-select:focus {
+    border-color: #4E9DDD;
+    outline: none;
+    box-shadow: 0 0 10px rgba(78, 157, 221, 0.3);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.car-select option {
+    background: #2a2a3a;
+    color: #FFFFFF;
+}
+
+/* 舆情监控选项 */
+.sentiment-options {
+    text-align: center;
+}
+
+/* 开始研究按钮 */
+.start-research-btn {
+    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(78, 157, 221, 0.3);
+}
+
+.start-research-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(78, 157, 221, 0.4);
+}
+
+.start-research-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* 隐藏原始表单 */
+.original-form {
+    display: none;
 }
 
 /* Glass-style inputs, selects, output areas */
@@ -220,7 +465,6 @@ footer p {
     margin: 10px;
     padding: 10px;
     border-radius: 12px;
-/*    border-left: 3px solid #4E9DDD;*/
     animation: fadeIn 0.5s ease;
 }
 
@@ -236,11 +480,6 @@ footer p {
     margin-bottom: 10px;
     margin-top: 10px;
     border-radius: 12px;
-    /*background-color: rgba(16, 16, 24, 0.9);
-    scrollbar-width: thin;
-    scrollbar-color: #4e9ddd rgba(40, 40, 50, 0.7);
-    font-size: 15px;
-    line-height: 1.6;*/
 }
 
 #output::-webkit-scrollbar {
@@ -419,20 +658,72 @@ textarea#task {
     resize: none;
 }
 
-/* Top Credits Bar */
-.credits-bar {
-    background: rgba(18, 18, 18, 0.8);
-    backdrop-filter: blur(10px);
-    padding: 8px 0;
-    width: 100%;
-    border-bottom: 1px solid rgba(78, 157, 221, 0.3);
-    z-index: 100;
+/* 返回按钮样式 */
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(78, 157, 221, 0.3);
 }
 
-.top-credits {
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(78, 157, 221, 0.4);
+}
+
+.back-button i {
+    font-size: 1rem;
+}
+
+/* 回到报告按钮样式 */
+.back-to-report-button {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 180px; /* 位于返回按钮右边，考虑返回按钮宽度和间距 */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+.back-to-report-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.back-to-report-button i {
+    font-size: 1rem;
+}
+
+/* 导航按钮 - 移动到右上角 */
+.nav-buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
 }
 
 /* Bottom credits bar (download bar) */
@@ -551,266 +842,6 @@ textarea#task {
     border-radius: 10px;
 }
 
-.feature-card {
-    background: rgba(20, 20, 30, 0.4); /* Even more transparent */
-    backdrop-filter: blur(5px); /* Lighter blur for better blending */
-    border-radius: 16px;
-    padding: 25px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(78, 157, 221, 0.1); /* Even more subtle border */
-    border-left: 3px solid; /* Slightly thinner accent border */
-    transition: all 0.3s ease;
-    cursor: pointer;
-    min-height: 160px;
-    width: 100%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); /* Even lighter shadow */
-    position: relative;
-    overflow: hidden;
-}
-
-.feature-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at top right, rgba(25, 25, 35, 0.3), transparent 70%);
-    z-index: -1;
-    opacity: 0.7;
-    border-radius: inherit;
-    pointer-events: none;
-}
-
-.feature-card:hover {
-    transform: translateY(-5px);
-    background: rgba(30, 30, 40, 0.6); /* More transparent on hover too */
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-    border-color: rgba(78, 157, 221, 0.25);
-}
-
-/* Adjust card colors to match background better */
-.feature-card.primary {
-    border-left-color: rgba(78, 157, 221, 0.7); /* More transparent colors */
-}
-
-.feature-card.success {
-    border-left-color: rgba(78, 221, 152, 0.7);
-}
-
-.feature-card.info {
-    border-left-color: rgba(78, 174, 221, 0.7);
-}
-
-.feature-card.warning {
-    border-left-color: rgba(237, 189, 78, 0.7);
-}
-
-.feature-card.danger {
-    border-left-color: rgba(237, 78, 78, 0.7);
-}
-
-.feature-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px; /* Increased from 50px */
-    height: 60px; /* Increased from 50px */
-    border-radius: 15px; /* Increased from 12px */
-    margin-bottom: 18px; /* Increased from 15px */
-    font-size: 26px; /* Increased from 22px */
-    color: #FFF;
-    position: relative; /* Needed for the ::after pseudo-element */
-}
-
-.feature-icon::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px; /* Match the parent */
-    transform: scale(0);
-    transition: transform 0.3s ease;
-}
-
-.feature-card:hover .feature-icon::after {
-    transform: scale(1);
-}
-
-.feature-card.primary .feature-icon {
-    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
-}
-
-.feature-card.success .feature-icon {
-    background: linear-gradient(135deg, #4EDD98, #2CBF7B);
-}
-
-.feature-card.info .feature-icon {
-    background: linear-gradient(135deg, #4EAEDD, #2C7BBF);
-}
-
-.feature-card.warning .feature-icon {
-    background: linear-gradient(135deg, #EDBD4E, #BF962C);
-}
-
-.feature-card.danger .feature-icon {
-    background: linear-gradient(135deg, #ED4E4E, #BF2C2C);
-}
-
-.feature-title {
-    font-weight: 600;
-    font-size: 20px; /* Increased from 18px */
-    margin-bottom: 12px; /* Increased from 10px */
-    color: #FFF;
-}
-
-.feature-text {
-    color: #CCC;
-    font-size: 15px; /* Increased from 14px */
-    line-height: 1.6; /* Increased from 1.5 */
-}
-
-.feature-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.05));
-    border-radius: 50%;
-    transform: translate(50%, -50%);
-    z-index: -1;
-}
-
-/* Animation for feature cards */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fadeInRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.left-panel .feature-card {
-    animation: fadeInLeft 0.6s ease forwards;
-    opacity: 0;
-}
-
-.right-panel .feature-card {
-    animation: fadeInRight 0.6s ease forwards;
-    opacity: 0;
-}
-
-.feature-card:nth-child(1) {
-    animation-delay: 0.1s;
-}
-
-.feature-card:nth-child(2) {
-    animation-delay: 0.25s;
-}
-
-.feature-card:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-/* Highlight connection between side panels and form elements */
-.highlight-connection {
-    transition: box-shadow 0.5s ease;
-    position: relative;
-    z-index: 1;
-}
-
-/* Button glow effect for feature cards interaction */
-.highlight-glow-button {
-    box-shadow: 0 0 25px 10px rgba(78, 157, 221, 0.7) !important;
-    border-color: rgba(78, 157, 221, 0.9) !important;
-    transform: translateY(-3px) !important;
-    transition: all 0.3s ease !important;
-}
-
-/* Intensify highlight glows for feature-panel interactions */
-.highlight-glow-container {
-    box-shadow: 0 0 30px 15px rgba(78, 174, 221, 0.6) !important;
-    border: 1px solid rgba(78, 174, 221, 0.8) !important;
-}
-.highlight-glow-report_source,
-.highlight-glow-query_domains {
-    box-shadow: 0 0 20px 10px rgba(78, 221, 152, 0.7) !important;
-}
-.highlight-glow-tone {
-    box-shadow: 0 0 20px 10px rgba(78, 157, 221, 0.7) !important;
-    border: 1px solid rgba(78, 157, 221, 0.8) !important;
-}
-
-/* Ensure subtle transitions for all glows */
-.highlight-connection,
-.highlight-glow-container,
-.highlight-glow-report_source,
-.highlight-glow-query_domains,
-.highlight-glow-tone {
-    transition: box-shadow 0.5s ease;
-}
-
-/* Scroll to bottom button */
-.scroll-to-bottom {
-    position: fixed;
-    bottom: 90px;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    right: auto; /* Override any right positioning */
-    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
-    width: 70px; /* Bigger */
-    height: 70px; /* Bigger */
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    opacity: 1;
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.scroll-to-bottom:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    transform: translateX(-50%) translateY(-5px); /* Keep centered while lifting */
-}
-
-.scroll-to-bottom i {
-    font-size: 28px; /* Bigger icon */
-}
-
 /* Responsive adjustments */
 @media (min-width: 1400px) {
     .feature-panel {
@@ -856,10 +887,59 @@ textarea#task {
         height: 140px;
     }
 
-    .scroll-to-bottom {
-        width: 60px;
-        height: 60px;
-        bottom: 70px;
+    /* 功能卡片移动端样式 - 保持并排显示 */
+    .feature-cards-container {
+        gap: 8px; /* 进一步减小间距 */
+        padding: 0 5px; /* 减小边距 */
+        margin: 30px 0; /* 减小上下边距 */
+    }
+
+    .feature-card {
+        min-width: 50px; /* 移动端最小宽度 */
+        padding: 12px 8px; /* 减小内边距 */
+        border-radius: 12px; /* 减小圆角 */
+    }
+
+    .feature-icon {
+        width: 50px; /* 移动端更小的图标 */
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .feature-title {
+        font-size: 16px; /* 移动端更小的标题 */
+        margin-bottom: 8px;
+    }
+
+    /* 导航按钮移动端调整 */
+    .nav-buttons {
+        top: 10px;
+        right: 10px;
+        gap: 5px;
+    }
+
+    .top-history-button,
+    .top-websocket-button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        min-width: 80px;
+    }
+
+    /* 返回按钮移动端调整 */
+    .back-button {
+        top: 10px;
+        left: 10px;
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    /* 回到报告按钮移动端调整 */
+    .back-to-report-button {
+        top: 10px;
+        left: 140px; /* 移动端调整位置，考虑返回按钮在移动端的宽度 */
+        padding: 8px 15px;
+        font-size: 0.8rem;
     }
 
     /* Credits bar and history button adjustments */
@@ -872,11 +952,6 @@ textarea#task {
         width: 100%;
         text-align: center;
         margin-bottom: 5px;
-    }
-
-    .top-history-button,
-    .top-websocket-button {
-        margin: 5px;
     }
 
     /* Sticky downloads bar adjustments */
@@ -948,11 +1023,6 @@ textarea#task {
         right: 0;
         padding: 0 20px;
     }
-
-    .feature-card {
-        padding: 18px;
-        min-height: auto; /* Let it grow with content */
-    }
 }
 
 @keyframes spin {
@@ -1006,62 +1076,6 @@ textarea#task {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-}
-
-/* Hover effect to make panels reappear */
-.feature-panel:hover {
-    --panel-shift: 0px !important;
-    --panel-opacity: 1 !important;
-    --panel-rotate: 0deg !important;
-    --panel-scale: 1 !important;
-    box-shadow: none;
-    transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.5s ease, box-shadow 0.5s ease;
-}
-
-/* Add 3D shading effect to the panels */
-.feature-panel::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: none; /* Remove the gradient background */
-    z-index: -1;
-    opacity: var(--panel-depth, 0.5);
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-}
-
-.feature-panel:hover::before {
-    opacity: 0; /* Make completely transparent on hover */
-}
-
-/* Add a subtle corner glow on hover */
-.feature-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at top right, rgba(25, 25, 35, 0.15), transparent 70%);
-    opacity: 0.5;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-    z-index: -1;
-}
-
-.feature-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle at top right, transparent, rgba(10, 10, 15, 0.1) 70%);
-    opacity: 1;
-    z-index: -2;
 }
 
 /* Conversation History Panel */
@@ -1363,132 +1377,6 @@ textarea#task {
     font-weight: 500;
 }
 
-/* Responsive Adjustments for History Panel */
-@media (max-width: 768px) {
-    .history-panel {
-        width: 100%;
-    }
-
-    .history-panel-toggle {
-        right: 20px;
-        bottom: 120px;
-        top: auto;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    .history-panel {
-        width: 280px;
-    }
-}
-
-/* Sticky Downloads Bar */
-.sticky-downloads-bar {
-    position: fixed !important; /* Force fixed positioning */
-    bottom: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: auto !important;
-    background: rgba(18, 18, 18, 0.8) !important;
-    backdrop-filter: blur(10px) !important;
-    z-index: 9999 !important; /* Extremely high z-index to ensure it's on top */
-    padding: 8px 0 !important;
-    display: none !important; /* Hidden by default */
-    justify-content: center !important;
-    border-top: 1px solid rgba(78, 157, 221, 0.3) !important;
-    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3) !important;
-    transform: none !important; /* Prevent any transforms */
-    margin: 0 !important; /* Reset any margins */
-    max-height: none !important;
-    min-height: 40px !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-    visibility: visible !important;
-}
-
-.sticky-downloads-bar.visible {
-    display: flex !important; /* Show when this class is added */
-}
-
-.download-options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    max-width: 1400px;
-    margin: 0 auto;
-    gap: 10px;
-}
-
-.download-buttons-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.download-option-btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 14px;
-    border-radius: 20px;
-    background: rgba(78, 157, 221, 0.2);
-    color: #7DC7FF;
-    font-weight: 500;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    text-decoration: none;
-}
-
-.download-option-btn:hover {
-    background: rgba(78, 157, 221, 0.3);
-    transform: translateY(-2px);
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.download-option-btn i {
-    font-size: 1rem;
-}
-
-.download-option-btn.disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    pointer-events: none;
-}
-
-/* Adjust for medium screens */
-@media (min-width: 769px) and (max-width: 1200px) {
-    .feature-panel {
-        width: 280px; /* Slightly smaller on medium screens */
-    }
-
-    .feature-card {
-        padding: 20px; /* Reduce padding on medium screens */
-        min-height: 150px; /* Smaller minimum height */
-    }
-
-    .feature-icon {
-        width: 55px; /* Slightly smaller icon */
-        height: 55px;
-        font-size: 24px;
-    }
-}
-
-/* Media query adjustments for mobile */
-/* Styles were merged into the main mobile media query */
-
-.credits-bar a {
-    color: #7DC7FF;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.credits-bar a:hover {
-    text-decoration: underline;
-}
-
 /* Add WebSocket Panel Styles */
 .websocket-panel {
     position: fixed;
@@ -1611,437 +1499,80 @@ textarea#task {
     margin: 15px 0 20px;
 }
 
-/* Responsive adjustments for WebSocket panel */
-@media (max-width: 768px) {
-    .websocket-panel {
-        width: 100%;
-    }
-
-    .websocket-panel-toggle-btn {
-        left: 20px;
-        top: 80px;
-        width: 50px;
-        height: 50px;
-    }
-
-    .websocket-panel-toggle-btn i {
-        font-size: 22px;
-    }
+/* Sticky Downloads Bar */
+.sticky-downloads-bar {
+    position: fixed !important; /* Force fixed positioning */
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background: rgba(18, 18, 18, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    z-index: 9999 !important; /* Extremely high z-index to ensure it's on top */
+    padding: 8px 0 !important;
+    display: none !important; /* Hidden by default */
+    justify-content: center !important;
+    border-top: 1px solid rgba(78, 157, 221, 0.3) !important;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3) !important;
+    transform: none !important; /* Prevent any transforms */
+    margin: 0 !important; /* Reset any margins */
+    max-height: none !important;
+    min-height: 40px !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    visibility: visible !important;
 }
 
-@media (max-width: 768px) {
-    /* Mobile styling for fixed download bar */
-    .sticky-downloads-bar .credits-content {
-        flex-direction: column;
-        padding: 5px 10px;
-    }
-
-    .sticky-downloads-bar p {
-        margin-bottom: 5px;
-        text-align: center;
-    }
-
-    .download-buttons-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .download-option-btn {
-        margin: 2px;
-        font-size: 0.8rem;
-        padding: 4px 10px;
-    }
+.sticky-downloads-bar.visible {
+    display: flex !important; /* Show when this class is added */
 }
 
-/* Chat UI Styles (moved from inline styles) */
-.chat-container {
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.chat-messages {
-    max-height: 400px;
-    overflow-y: auto;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.2);
-    scrollbar-width: thin;
-    scrollbar-color: #4e9ddd rgba(40, 40, 50, 0.7);
-}
-
-.chat-messages::-webkit-scrollbar {
-    width: 6px;
-}
-
-.chat-messages::-webkit-scrollbar-track {
-    background: rgba(40, 40, 50, 0.7);
-    border-radius: 10px;
-}
-
-.chat-messages::-webkit-scrollbar-thumb {
-    background-color: #4e9ddd;
-    border-radius: 10px;
-}
-
-.chat-message {
-    margin-bottom: 15px;
-    padding: 10px 15px;
-    border-radius: 10px;
-    max-width: 80%;
-    position: relative;
-}
-
-.user-message {
-    background-color: #4a4a5e;
-    color: white;
-    margin-left: auto;
-    border-bottom-right-radius: 0;
-}
-
-.ai-message {
-    background-color: #4E9DDD;
-    color: white;
-    margin-right: auto;
-    border-bottom-left-radius: 0;
-}
-
-.chat-input-container {
+.download-options {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
     gap: 10px;
 }
 
-.chat-input {
-    flex-grow: 1;
-    border-radius: 20px;
-    padding: 10px 15px;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    font-weight: 400;
-}
-
-.chat-input::placeholder {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.chat-input:focus {
-    background-color: rgba(255, 255, 255, 0.4);
-    border-color: #4E9DDD;
-    box-shadow: 0 0 0 0.2rem rgba(78, 157, 221, 0.25);
-    color: #000000;
-    font-weight: 500;
-}
-
-.chat-timestamp {
-    font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.5);
-    margin-top: 5px;
-    text-align: right;
-}
-
-#sendChatBtn {
-    border-radius: 20px;
-    padding: 10px 20px;
-}
-
-.chat-loading {
+.download-buttons-container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
-.chat-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.7;
-    animation: dot-pulse 1.5s infinite;
-}
-
-.chat-dot:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.chat-dot:nth-child(3) {
-    animation-delay: 0.4s;
-}
-
-@keyframes dot-pulse {
-    0%, 100% { transform: scale(0.7); opacity: 0.5; }
-    50% { transform: scale(1); opacity: 1; }
-}
-
-/* Download buttons glow effect */
-.highlight-glow-download-button {
-    box-shadow: 0 0 15px #ffc107, 0 0 25px rgba(255, 193, 7, 0.5) !important;
-    transform: translateY(-2px);
-    transition: all 0.3s ease;
-    border-color: #ffc107 !important;
-}
-
-/* --- Enhanced History Panel Styles --- */
-/* Improved layout and organization for history panel */
-.history-panel {
-    /* Keep existing styles */
-    background: rgba(22, 22, 30, 0.97);
-}
-
-/* Improved header with better visibility */
-.history-panel-header {
-    background: rgba(25, 25, 35, 0.95);
-    padding: 16px 20px;
-    border-bottom: 2px solid rgba(78, 157, 221, 0.5);
-}
-
-/* Standardized button container in header */
-.history-panel-actions {
+.download-option-btn {
     display: flex;
+    align-items: center;
     gap: 8px;
-}
-
-/* Improved and consistent action buttons */
-.history-action-btn {
-    width: 36px;
-    height: 36px;
-    background: rgba(40, 40, 55, 0.8);
-    border: 1px solid rgba(78, 157, 221, 0.3);
-    color: #E4E4E4;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease;
-    cursor: pointer;
-    position: relative;
-}
-
-.history-action-btn:hover {
+    padding: 6px 14px;
+    border-radius: 20px;
     background: rgba(78, 157, 221, 0.2);
-    border-color: #4E9DDD;
-    transform: translateY(-2px);
-    color: #FFFFFF;
-}
-
-/* Add labels to buttons on hover for better UX */
-.history-action-btn::after {
-    content: attr(title);
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(40, 40, 55, 0.9);
-    color: #FFFFFF;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
+    color: #7DC7FF;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
     transition: all 0.2s ease;
-    pointer-events: none;
-    z-index: 10;
-}
-
-.history-action-btn:hover::after {
-    opacity: 1;
-    visibility: visible;
-    bottom: -25px;
-}
-
-/* Improved search bar */
-.history-panel-search {
-    padding: 12px 16px;
-    border-bottom: 1px solid rgba(78, 157, 221, 0.2);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.history-panel-search input {
-    flex: 1;
-    background: rgba(30, 30, 40, 0.8);
-    border: 1px solid rgba(78, 157, 221, 0.3);
-    border-radius: 20px;
-    padding: 8px 15px;
-    color: #E4E4E4;
-    font-size: 0.9rem;
-    height: 40px;
-}
-
-.history-panel-search input:focus {
-    border-color: #4E9DDD;
-    box-shadow: 0 0 0 2px rgba(78, 157, 221, 0.2);
-    outline: none;
-}
-
-/* Filter area with improved buttons */
-.history-panel-filters {
-    padding: 12px 16px;
-    background: rgba(30, 30, 40, 0.4);
-    border-bottom: 1px solid rgba(78, 157, 221, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.history-panel-filters select {
-    background: rgba(40, 40, 55, 0.8);
-    border: 1px solid rgba(78, 157, 221, 0.3);
-    border-radius: 20px;
-    padding: 8px 15px;
-    color: #E4E4E4;
-    font-size: 0.9rem;
-    max-width: 140px;
-    height: 40px;
-}
-
-/* Improved action buttons container in filters */
-.history-actions-container {
-    display: flex;
-    gap: 10px;
-    margin-left: auto;
-}
-
-/* Make history entries more visually appealing */
-.history-entry {
-    background: rgba(35, 35, 45, 0.7);
-    border-radius: 10px;
-    padding: 16px;
-    border-left: 3px solid #4E9DDD;
-    transition: all 0.25s ease;
-    position: relative;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-.history-entry:hover {
-    background: rgba(45, 45, 60, 0.8);
-    transform: translateY(-2px) scale(1.01);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Better formatted entry header */
-.history-entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 12px;
-}
-
-/* Format link buttons consistently */
-.history-entry-format {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 10px 0;
-}
-
-.history-entry-format a.history-entry-action {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    border-radius: 30px;
-    background: rgba(78, 157, 221, 0.15);
-    color: #E4E4E4;
-    font-size: 0.85rem;
     text-decoration: none;
-    transition: all 0.2s ease;
-    border: 1px solid rgba(78, 157, 221, 0.3);
 }
 
-.history-entry-format a.history-entry-action:hover {
+.download-option-btn:hover {
     background: rgba(78, 157, 221, 0.3);
-    transform: translateY(-1px);
-    color: #FFFFFF;
-    border-color: rgba(78, 157, 221, 0.5);
-}
-
-/* Consistent icon styles for various file types */
-.history-entry-format a.history-entry-action i {
-    font-size: 0.9rem;
-}
-
-/* PDF icon */
-.history-entry-format a.history-entry-action i.fa-file-pdf {
-    color: #FF5252;
-}
-
-/* Word icon */
-.history-entry-format a.history-entry-action i.fa-file-word {
-    color: #4285F4;
-}
-
-/* Markdown icon */
-.history-entry-format a.history-entry-action i.fa-file-lines {
-    color: #42A5F5;
-}
-
-/* JSON icon */
-.history-entry-format a.history-entry-action i.fa-file-code {
-    color: #FFB300;
-}
-
-/* Improved delete button */
-.history-entry-actions {
-    position: absolute;
-    right: 12px;
-    bottom: 12px;
-    opacity: 0;
-    transition: all 0.2s ease;
-}
-
-.history-entry:hover .history-entry-actions {
-    opacity: 1;
-}
-
-.history-entry-actions .delete-entry {
-    width: 34px;
-    height: 34px;
-    background: rgba(220, 53, 69, 0.2);
-    border: 1px solid rgba(220, 53, 69, 0.3);
-    color: #dc3545;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-}
-
-.history-entry-actions .delete-entry:hover {
-    background: rgba(220, 53, 69, 0.3);
-    border-color: rgba(220, 53, 69, 0.5);
     transform: translateY(-2px);
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
-/* Empty state styling */
-.history-panel-entries p.text-center {
-    padding: 20px;
-    color: #B8B8B8;
-    font-style: italic;
+.download-option-btn i {
+    font-size: 1rem;
 }
 
-/* Responsive adjustments for history panel */
-@media (max-width: 768px) {
-    .history-panel {
-        width: 100%;
-    }
-
-    .history-action-btn::after {
-        display: none; /* Hide tooltips on mobile */
-    }
-
-    .history-panel-filters {
-        flex-wrap: wrap;
-    }
-
-    .history-actions-container {
-        margin-top: 8px;
-        margin-left: 0;
-    }
+.download-option-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 /* Report Actions and Download Buttons */
@@ -2208,6 +1739,178 @@ textarea#task {
         width: 100% !important;
         padding: 15px !important;
     }
+
+    /* Responsive adjustments for WebSocket panel */
+    .websocket-panel {
+        width: 100%;
+    }
+
+    .websocket-panel-toggle-btn {
+        left: 20px;
+        top: 80px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .websocket-panel-toggle-btn i {
+        font-size: 22px;
+    }
+
+    /* Mobile styling for fixed download bar */
+    .sticky-downloads-bar .credits-content {
+        flex-direction: column;
+        padding: 5px 10px;
+    }
+
+    .sticky-downloads-bar p {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .download-buttons-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .download-option-btn {
+        margin: 2px;
+        font-size: 0.8rem;
+        padding: 4px 10px;
+    }
+
+    /* Responsive Adjustments for History Panel */
+    .history-panel {
+        width: 100%;
+    }
+
+    .history-panel-toggle {
+        right: 20px;
+        bottom: 120px;
+        top: auto;
+    }
+}
+
+/* Chat UI Styles (moved from inline styles) */
+.chat-container {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chat-messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+    scrollbar-width: thin;
+    scrollbar-color: #4e9ddd rgba(40, 40, 50, 0.7);
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background: rgba(40, 40, 50, 0.7);
+    border-radius: 10px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background-color: #4e9ddd;
+    border-radius: 10px;
+}
+
+.chat-message {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    max-width: 80%;
+    position: relative;
+}
+
+.user-message {
+    background-color: #4a4a5e;
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 0;
+}
+
+.ai-message {
+    background-color: #4E9DDD;
+    color: white;
+    margin-right: auto;
+    border-bottom-left-radius: 0;
+}
+
+.chat-input-container {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input {
+    flex-grow: 1;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 400;
+}
+
+.chat-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.chat-input:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: #4E9DDD;
+    box-shadow: 0 0 0 0.2rem rgba(78, 157, 221, 0.25);
+    color: #000000;
+    font-weight: 500;
+}
+
+.chat-timestamp {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    text-align: right;
+}
+
+#sendChatBtn {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.chat-loading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chat-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.7;
+    animation: dot-pulse 1.5s infinite;
+}
+
+.chat-dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.chat-dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes dot-pulse {
+    0%, 100% { transform: scale(0.7); opacity: 0.5; }
+    50% { transform: scale(1); opacity: 1; }
 }
 
 /* Voice input button styles */
@@ -2401,6 +2104,37 @@ textarea#task {
     max-width: 220px;
 }
 
+/* 开始使用按钮样式 */
+.get-started-btn {
+    background: linear-gradient(135deg, #4E9DDD, #2C7BBF);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(78, 157, 221, 0.3);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.get-started-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(78, 157, 221, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.get-started-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 157, 221, 0.3);
+}
+
 /* Center and enhance the Research submit button */
 #researchForm input[type="submit"] {
     display: block;
@@ -2430,3 +2164,364 @@ textarea#task {
         min-width: 180px;
     }
 }
+/* 深度研究面板主内容区样式 - 垂直布局 */
+.research-main-content {
+    display: flex;
+    flex-direction: column; /* 改为垂直布局 */
+    gap: 20px;
+    align-items: stretch; /* 让子元素拉伸填满宽度 */
+}
+
+.research-input-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* 确保占满宽度 */
+}
+
+.research-file-area {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid rgba(78, 157, 221, 0.2);
+    min-height: 150px; /* 减小最小高度 */
+    width: 100%; /* 确保占满宽度 */
+    order: -1; /* 确保文件区域显示在顶部 */
+}
+
+.file-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(78, 157, 221, 0.2);
+    padding-bottom: 10px;
+}
+
+.file-list-header h5 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.upload-btn {
+    background: rgba(78, 157, 221, 0.2);
+    border: 1px solid rgba(78, 157, 221, 0.4);
+    color: #7DC7FF;
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.upload-btn:hover {
+    background: rgba(78, 157, 221, 0.4);
+    color: #FFFFFF;
+}
+
+.file-list {
+    max-height: 120px; /* 减小最大高度 */
+    overflow-y: auto;
+}
+
+.file-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 让文件名和删除按钮分布在两端 */
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #CCCCCC;
+}
+
+.file-name-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden; /* 防止文件名过长时破坏布局 */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-name-container i {
+    color: #4E9DDD;
+    flex-shrink: 0; /* 防止图标被压缩 */
+}
+
+/* 删除按钮样式 */
+.delete-file-btn {
+    background: transparent;
+    border: none;
+    color: #ff6b6b; /* 醒目的红色 */
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    opacity: 0.6; /* 默认半透明 */
+}
+
+.file-list-item:hover .delete-file-btn {
+    opacity: 1; /* 鼠标悬浮时完全显示 */
+}
+
+.delete-file-btn:hover {
+    background-color: rgba(255, 107, 107, 0.2); /* 悬浮时增加背景色 */
+    transform: scale(1.1);
+}
+
+.delete-file-btn i {
+    font-size: 0.9rem;
+}
+
+.no-files {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 响应式布局调整 - 在垂直布局下不需要特殊处理 */
+@media (max-width: 768px) {
+    .research-main-content {
+        gap: 15px;
+    }
+    .research-file-area {
+        min-height: 120px;
+    }
+    .file-list {
+        max-height: 100px;
+    }
+}
+/* 报告来源选择器样式 */
+.source-selector-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.source-option {
+    position: relative;
+    flex: 1;
+}
+
+.source-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.source-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #CCCCCC;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.source-option input[type="radio"]:checked + .source-label {
+    background-color: #4E9DDD;
+    color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(78, 157, 221, 0.3);
+}
+
+.source-option input[type="radio"]:hover + .source-label {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.source-option input[type="radio"]:checked:hover + .source-label {
+    background-color: #5aa6e4; /* 选中状态的悬浮效果 */
+}
+
+.source-label i {
+    font-size: 1rem;
+}
+/* 文件列表项样式调整 */
+.file-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 让文件名和删除按钮分布在两端 */
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #CCCCCC;
+}
+
+.file-name-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow: hidden; /* 防止文件名过长时破坏布局 */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-name-container i {
+    color: #4E9DDD;
+    flex-shrink: 0; /* 防止图标被压缩 */
+}
+
+/* 删除按钮样式 */
+.delete-file-btn {
+    background: transparent;
+    border: none;
+    color: #ff6b6b; /* 醒目的红色 */
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    opacity: 0.6; /* 默认半透明 */
+}
+
+.file-list-item:hover .delete-file-btn {
+    opacity: 1; /* 鼠标悬浮时完全显示 */
+}
+
+.delete-file-btn:hover {
+    background-color: rgba(255, 107, 107, 0.2); /* 悬浮时增加背景色 */
+    transform: scale(1.1);
+}
+
+.delete-file-btn i {
+    font-size: 0.9rem;
+}
+/* 容器样式，用于定位 */
+/* 确保下拉框和输入框都使用 border-box 模型 */
+.car-selector-wrapper .car-select,
+.car-selector-wrapper .car-input {
+    width: 100%;
+    box-sizing: border-box; /* 关键属性！ */
+}
+
+
+/* 新增：切换按钮样式 */
+.switch-to-select-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.switch-to-select-btn:hover {
+    background: #4E9DDD;
+}
+
+/* =================================== */
+/*  Markdown Report Table Styling      */
+/* =================================== */
+
+/* 为报告容器内的表格添加样式 */
+#reportContainer table {
+    width: 100%; /* 表格宽度占满容器 */
+    border-collapse: collapse; /* 合并边框 */
+    margin: 20px 0; /* 上下边距 */
+    font-size: 16px; /* 调整表格字体大小 */
+    text-align: left; /* 默认左对齐 */
+    background-color: rgba(30, 30, 40, 0.7); /* 表格背景色，与主题匹配 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden; /* 确保圆角生效 */
+}
+
+#reportContainer th,
+#reportContainer td {
+    padding: 14px 18px; /* 单元格内边距 */
+    border: 1px solid rgba(78, 157, 221, 0.2); /* 单元格边框颜色 */
+}
+
+#reportContainer thead tr {
+    background-color: rgba(78, 157, 221, 0.2); /* 表头背景色 */
+    color: #FFFFFF; /* 表头文字颜色 */
+    font-weight: 600; /* 表头文字加粗 */
+    text-transform: uppercase; /* 表头文字大写（可选） */
+    letter-spacing: 0.5px;
+}
+
+#reportContainer tbody tr {
+    border-bottom: 1px solid rgba(78, 157, 221, 0.1);
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* 斑马条纹效果，提高可读性 */
+#reportContainer tbody tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#reportContainer tbody tr:hover {
+    background-color: rgba(78, 157, 221, 0.15); /* 鼠标悬浮高亮 */
+}
+
+/* 响应式设计：在小屏幕上允许表格水平滚动 */
+@media screen and (max-width: 768px) {
+    #reportContainer {
+        overflow-x: auto; /* 在报告容器上启用水平滚动 */
+    }
+
+    #reportContainer table {
+        min-width: 600px; /* 确保表格内容不会被过度压缩 */
+    }
+}
+
+/* Suggestion Bubble Styles */
+.suggestion-bubble {
+    background-color: rgba(78, 157, 221, 0.2);
+    border: 1px solid rgba(78, 157, 221, 0.4);
+    color: #7DC7FF;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    text-align: center;
+    transition: all 0.2s ease;
+    width: fit-content; /* 让气泡宽度适应内容 */
+    margin-left: auto; /* 居中显示 */
+    margin-right: auto; /* 居中显示 */
+}
+
+.suggestion-bubble:hover {
+    background-color: rgba(78, 157, 221, 0.4);
+    color: #FFFFFF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+

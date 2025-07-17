@@ -78,6 +78,12 @@ Assume the current date is {datetime.now(timezone.utc).strftime('%B %d, %Y')} if
 {context_prompt}
 You must respond with a list of strings in the following format: [{dynamic_example}].
 The response should contain ONLY the list.
+Ensure that the querys  are sufficiently comprehensive to fully address the question.
+
+for example:
+    task:"帮我做一份问界M8和小米Yu7的竞品分析报告"
+    response:["问界M8 参数", "小米Yu7 参数", "问界M8 用户体验", "小米Yu7 用户体验", "问界M8 小米Yu7 对比"]
+
 """
 
     @staticmethod
@@ -163,13 +169,13 @@ You MUST write all used source document names at the end of the report as refere
 Information: "{context}"
 ---
 Using the above information, answer the following query or task: "{question}" in a detailed report --
-The report should focus on the answer to the query, should be well structured, informative,
+The report should focus on the answer to the query, should be well structured with title, table of contents and headings, informative,
 in-depth, and comprehensive, with facts and numbers if available and at least {total_words} words.
 You should strive to write the report as long as you can using all relevant and necessary information provided.
 
 Please follow all of the following guidelines in your report:
 - You MUST determine your own concrete and valid opinion based on the given information. Do NOT defer to general and meaningless conclusions.
-- You MUST write the report with markdown syntax and {report_format} format.
+- You MUST write the report with markdown syntax and {report_format} format and with title, table of contents and headings.
 - Use markdown tables when presenting structured data or comparisons to enhance readability.
 - You MUST prioritize the relevance, reliability, and significance of the sources you use. Choose trusted sources over less reliable ones.
 - You must also prioritize new articles over older articles if the source can be trusted.
@@ -302,8 +308,28 @@ You MUST write all used source document names at the end of the report as refere
     @staticmethod
     def generate_custom_report_prompt(
         query_prompt, context, report_source: str, report_format="apa", tone=None, total_words=1000, language: str = "english"
-    ):
-        return f'"{context}"\n\n{query_prompt}'
+    ):  
+        citation_examples = """
+- Use APA in-text citation format with markdown hyperlinks:
+  - Single author: ([Bloomberg, 2024](url))
+  - Multiple authors: ([Bloomberg et al., 2024](url))
+  - Chinese examples: ([新华网, 2024](url)) or ([张三, 2023](url))
+"""
+        reference_prompt = f"""
+You MUST write all used source urls at the end of the report as references, and make sure to not add duplicated sources, but only one reference for each.
+MUST NOT repeatedly citing the same source within continuous text.
+Every url should be hyperlinked: [url website](url)
+Additionally, you MUST include hyperlinks to the relevant URLs wherever they are referenced in the report.
+
+APA Format Examples:
+- In-text citation: According to recent research ([Bloomberg, 2024](url)), AI is advancing rapidly. Multiple studies confirm this trend [Bloomberg et al., 2024](url)).
+- In-text citation (Chinese): 根据最新研究（[科技日报, 2024](url)），人工智能正在快速发展。多项研究证实了这一趋势（[清华大学, 2023](url)；[英伟达, 2024](url)）。
+- Reference list: 
+  Bloomberg. (2024, March 15). Artificial intelligence breakthroughs. [Bloomberg](https://example.com/ai-breakthrough)
+  科技日报. (2024年3月15日). 人工智能突破性进展. [科技日报](https://example.com/ai-breakthrough-cn)
+"""
+
+        return f'"{context}"\n\n{query_prompt}\n\n{citation_examples}\n\n{reference_prompt} 撰写报告时需要带有标题和序号'
     
 
     @staticmethod

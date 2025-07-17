@@ -2,8 +2,6 @@
 #FROM python:3.13.3-slim-bookworm AS install-browser
 FROM python:3.11.4-slim-bullseye AS install-browser
 
-# === APT 源配置开始 ===
-# 备份原始的 sources.list
 RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak \
     # 清空原始 sources.list 并添加阿里云源 (以 Debian 11 Bullseye 为例)
     && echo "" > /etc/apt/sources.list \
@@ -15,10 +13,11 @@ RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak \
     && echo "deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main contrib non-free" >> /etc/apt/sources.list \
     # 更新 APT 缓存
     && apt-get update
-# === APT 源配置结束 ===
 
+    
 # Install Chromium, Chromedriver, Firefox, Geckodriver, and build tools in one layer
-RUN apt-get install -y gnupg wget ca-certificates --no-install-recommends \
+RUN apt-get update \
+    && apt-get install -y gnupg wget ca-certificates --no-install-recommends \
     && ARCH=$(dpkg --print-architecture) \
     && wget -qO - https://dl.google.com/linux/linux_signing_key.pub | apt-key add - \
     && echo "deb [arch=${ARCH}] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list \
@@ -48,7 +47,6 @@ COPY ./HarmonyOS_Sans_SC /usr/share/fonts
 RUN pip install --upgrade pip -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com && \
     pip install  -r requirements.txt --upgrade --prefer-binary -i http://mirrors.aliyun.com/pypi/simple --trusted-host mirrors.aliyun.com
 # === Pip 源配置结束 ===
-  
 # Stage 3: Final stage with non-root user and app
 FROM seres-researcher-install AS seres-researcher
 
@@ -60,11 +58,11 @@ ENV PORT=${PORT}
 EXPOSE ${PORT}
 
 # Uvicorn parameters used in CMD
-ARG WORKERS=1
+ARG WORKERS=16
 ENV WORKERS=${WORKERS}
 
 # Create a non-root user for security
-# NOTE: Don\'t use this if you are relying on `_check_pkg` to pip install packages dynamically.
+# NOTE: Don't use this if you are relying on `_check_pkg` to pip install packages dynamically.
 RUN useradd -ms /bin/bash seres-researcher && \
     chown -R seres-researcher:seres-researcher /usr/src/app && \
     # Add these lines to create and set permissions for outputs directory
@@ -77,3 +75,4 @@ WORKDIR /usr/src/app
 # Copy the rest of the application files with proper ownership
 COPY --chown=seres-researcher:seres-researcher ./ ./
 CMD uvicorn main:app --host ${HOST} --port ${PORT} --workers ${WORKERS}
+

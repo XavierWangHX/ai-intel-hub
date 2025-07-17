@@ -23,7 +23,7 @@ class CustomLogsHandler:
     def __init__(self, websocket, task: str):
         self.logs = []
         self.websocket = websocket
-        sanitized_filename = sanitize_filename(f"task_{int(time.time())}_{task}")
+        sanitized_filename = sanitize_filename(f"task_{int(time.time())}")
         self.log_file = os.path.join("outputs", f"{sanitized_filename}.json")
         self.timestamp = datetime.now().isoformat()
         # Initialize log file with metadata

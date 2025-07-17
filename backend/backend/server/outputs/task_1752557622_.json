@@ -1,0 +1,445 @@
+{
+  "timestamp": "2025-07-15T05:33:42.903556",
+  "events": [
+    {
+      "timestamp": "2025-07-15T05:33:47.654405",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:33:47.654803",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\ude97 \u6c7d\u8f66\u53c2\u6570\u5bf9\u6bd4\u4e0e\u5206\u6790\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:33:47.655587",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:33:48.791274",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.222385",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a[['Aito M8 2025 specifications official site', 'Xiaomi YU7 2025 specifications official site'], ['Aito M8 Xiaomi YU7 competitive analysis conclusion 2025']]...",
+        "metadata": [
+          [
+            "Aito M8 2025 specifications official site",
+            "Xiaomi YU7 2025 specifications official site"
+          ],
+          [
+            "Aito M8 Xiaomi YU7 competitive analysis conclusion 2025"
+          ],
+          "1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.222896",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '['Aito M8 2025 specifications official site', 'Xiaomi YU7 2025 specifications official site']' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.224947",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '['Aito M8 Xiaomi YU7 competitive analysis conclusion 2025']' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.226455",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.266232",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.266675",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 0 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.267622",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 0 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.268301",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 0 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 0 \u5f20\u65b0\u56fe\u7247",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.269115",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.270016",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a['Aito M8 2025 specifications official site', 'Xiaomi YU7 2025 specifications official site']...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.431214",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.431844",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 0 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.432818",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 0 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.433533",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 0 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 0 \u5f20\u65b0\u56fe\u7247",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.434384",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.435341",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a['Aito M8 Xiaomi YU7 competitive analysis conclusion 2025']...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.436785",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 \u6ca1\u6709\u627e\u5230 '['Aito M8 2025 specifications official site', 'Xiaomi YU7 2025 specifications official site']' \u7684\u76f8\u5173\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:08.437508",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 \u6ca1\u6709\u627e\u5230 '['Aito M8 Xiaomi YU7 competitive analysis conclusion 2025']' \u7684\u76f8\u5173\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.129997",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://cheshihao.cheshi.com/news/2817327.html\n",
+        "metadata": "https://cheshihao.cheshi.com/news/2817327.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.130931",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/99286705/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/99286705/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.131943",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://post.m.smzdm.com/p/az70xorr/\n",
+        "metadata": "https://post.m.smzdm.com/p/az70xorr/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.132955",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/98076985/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/98076985/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.134010",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97593330/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97593330/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.135113",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.autohome.com.cn/news/202502/1303778.html\n",
+        "metadata": "https://m.autohome.com.cn/news/202502/1303778.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.136187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97927859/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97927859/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.137307",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://hao.m.yiche.com/wenzhang/97583437/\n",
+        "metadata": "https://hao.m.yiche.com/wenzhang/97583437/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.138405",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://chejiahao.autohome.com.cn/info/19196748/\n",
+        "metadata": "https://chejiahao.autohome.com.cn/info/19196748/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.139755",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97601983/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97601983/"
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.140996",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.142091",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.972905",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 9 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.973832",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 82 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://z.autoimg.cn/pcm/article/default_big.png?cache_ttl=1800",
+          "https://z.autoimg.cn/fe/auto-header/images/weather_blank.png",
+          "https://static1.bitautoimg.com/yc-pc/bitautoPC/static/images/header-logout.png",
+          "https://static1.bitautoimg.com/yc-common/imgs/lazyload-brand.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.974997",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:09.976249",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:14.088187",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:34:14.090442",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-15T05:35:21.530230",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd \u5df2\u4e3a '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cm8\u548c\u5c0f\u7c73Yu7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\uff0c\u5982\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u9700\u533a\u5206\uff0c\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c\uff0c\u4f18\u5148\u5c55\u793a\u6700\u65b0\u53d1\u5e03\u7684\u7248\u672c\u3002\u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u64b0\u5199\u5b8c\u6210\u62a5\u544a\u3002",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "[\u6613\u8f66](https://news.m.yiche.com/hao/wenzhang/97927859/)",
+    "metadata": [
+      "https://z.autoimg.cn/pcm/article/default_big.png?cache_ttl=1800",
+      "https://z.autoimg.cn/fe/auto-header/images/weather_blank.png",
+      "https://static1.bitautoimg.com/yc-pc/bitautoPC/static/images/header-logout.png",
+      "https://static1.bitautoimg.com/yc-common/imgs/lazyload-brand.png"
+    ]
+  }
+}
