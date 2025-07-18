@@ -1,0 +1,672 @@
+{
+  "timestamp": "2025-07-17T06:16:30.836447",
+  "events": [
+    {
+      "timestamp": "2025-07-17T06:16:35.753047",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:35.753319",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\u2708\ufe0f \u4f4e\u7a7a\u7ecf\u6d4e\u4e0e\u672a\u6765\u4ea4\u901a\u4ea7\u4e1a\u5206\u6790\u5e08Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:35.753878",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:36.936026",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:52.372166",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['2025 low-altitude economy market size forecasts China global comparison', 'low-altitude economy policy updates 2024-2025 China eVTOL regulations', 'eVTOL propulsion system battery technology advancements 2025']...",
+        "metadata": [
+          "2025 low-altitude economy market size forecasts China global comparison",
+          "low-altitude economy policy updates 2024-2025 China eVTOL regulations",
+          "eVTOL propulsion system battery technology advancements 2025",
+          "\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:52.372565",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '2025 low-altitude economy market size forecasts China global comparison' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:52.374014",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'low-altitude economy policy updates 2024-2025 China eVTOL regulations' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:52.375140",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'eVTOL propulsion system battery technology advancements 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:52.376144",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.137307",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.buaa.edu.cn/info/1002/66360.htm\n",
+        "metadata": "https://news.buaa.edu.cn/info/1002/66360.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.137658",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/909741654_121972177/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/909741654_121972177/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.138372",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://www.witlead.com.cn/\n",
+        "metadata": "http://www.witlead.com.cn/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.138911",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.vicorpower.cn/press-room\n",
+        "metadata": "https://www.vicorpower.cn/press-room"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.139634",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://caifuhao.eastmoney.com/news/20250625093058908220000\n",
+        "metadata": "https://caifuhao.eastmoney.com/news/20250625093058908220000"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.140185",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.sz.gov.cn/en/index.html\n",
+        "metadata": "https://www.sz.gov.cn/en/index.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.140740",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://www.sz.gov.cn/en\n",
+        "metadata": "http://www.sz.gov.cn/en"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.141331",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.shifair.com/wap/article_details/index/id/336015.html\n",
+        "metadata": "https://www.shifair.com/wap/article_details/index/id/336015.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.141900",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.142474",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 8 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.155859",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/pages/dongtai/index?from_src=biji_tab&id=434784002\n",
+        "metadata": "https://m.yoojia.com/pages/dongtai/index?from_src=biji_tab&id=434784002"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.156244",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.blog.csdn.net/yuntongliangda/article/details/149027775\n",
+        "metadata": "https://m.blog.csdn.net/yuntongliangda/article/details/149027775"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.156951",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.jrj.com.cn/rss/yidianzixun/2024/9/2/42953339.shtml\n",
+        "metadata": "https://m.jrj.com.cn/rss/yidianzixun/2024/9/2/42953339.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.157570",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.bayardsvertiports.com/\n",
+        "metadata": "https://www.bayardsvertiports.com/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.158201",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.158816",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 4 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.191072",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=m7p6r&oscode=w764&productcode=inspiron-20-3048-aio&src=o\n",
+        "metadata": "https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=m7p6r&oscode=w764&productcode=inspiron-20-3048-aio&src=o"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.191546",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.1010jiajiao.com/gzyy/shiti_id_d8e062db9b5bd694bf54b14f02ee6355\n",
+        "metadata": "http://m.1010jiajiao.com/gzyy/shiti_id_d8e062db9b5bd694bf54b14f02ee6355"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.192172",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.dell.com/support/manuals/en-uk/powerprotect-software/pp-dm_19.20_nas_ug/%E8%BF%9E%E6%8E%A5%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86?guid=guid-27179953-86ff-41cc-824f-1defc5eb44ef&lang=zh-cn\n",
+        "metadata": "https://www.dell.com/support/manuals/en-uk/powerprotect-software/pp-dm_19.20_nas_ug/%E8%BF%9E%E6%8E%A5%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86?guid=guid-27179953-86ff-41cc-824f-1defc5eb44ef&lang=zh-cn"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.192987",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=m5m4g&oscode=w764&productcode=inspiron-20-3043-aio\n",
+        "metadata": "https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=m5m4g&oscode=w764&productcode=inspiron-20-3043-aio"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.193646",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://www.zhongxiang.gov.cn/art/2025/6/19/art_12663_1159635.html\n",
+        "metadata": "http://www.zhongxiang.gov.cn/art/2025/6/19/art_12663_1159635.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.194312",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.isd.gov.hk/eng/api_more.htm\n",
+        "metadata": "https://www.isd.gov.hk/eng/api_more.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.194962",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/ask/5-12163252563768559062.html\n",
+        "metadata": "https://m.yoojia.com/ask/5-12163252563768559062.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.195634",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://steveblank.com/category/china/\n",
+        "metadata": "https://steveblank.com/category/china/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.196318",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.dell.com/support/home/zh-cn/drivers/DriversDetails?categoryId=BI&driverId=PW9GH&fileId=3498972572&languageCode=en&osCode=W732&productCode=inspiron-20-3043-aio\n",
+        "metadata": "https://www.dell.com/support/home/zh-cn/drivers/DriversDetails?categoryId=BI&driverId=PW9GH&fileId=3498972572&languageCode=en&osCode=W732&productCode=inspiron-20-3043-aio"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.196986",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.197685",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.512277",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://doc.mbalib.com/view/1353f69867b003f7b5c4b3d7ecb18d4f.html\n",
+        "metadata": "https://doc.mbalib.com/view/1353f69867b003f7b5c4b3d7ecb18d4f.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.512841",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.renrendoc.com/paper/438092987.html\n",
+        "metadata": "https://m.renrendoc.com/paper/438092987.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.513670",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/hyzx/20250620/164956503.shtml\n",
+        "metadata": "https://m.chinairn.com/hyzx/20250620/164956503.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.514372",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://new.qq.com/rain/a/20250711A024EH00\n",
+        "metadata": "https://new.qq.com/rain/a/20250711A024EH00"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.515072",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://shufang.docin.com/p-4887070358.html\n",
+        "metadata": "http://shufang.docin.com/p-4887070358.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.515805",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/905357554_122263607/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/905357554_122263607/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.516552",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:53.517564",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 6 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.056098",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.056796",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 44 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "http://www.witlead.com.cn/",
+          "http://www.sz.gov.cn/Engish/gh_20250414.png",
+          "http://www.sz.gov.cn/pubimages/English/logo2.png",
+          "http://www.sz.gov.cn/pubimages/English/logo.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.057637",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.058468",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a2025 low-altitude economy market size forecasts China global comparison...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.763762",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 6 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.764466",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 37 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://css.renrendoc.com/static/common/images/logo-normal.png",
+          "https://file4.renrendoc.com/view16/M03/28/05/wKhkGmhlcaaAMyOsAAGEZPAJRGs147.jpg",
+          "https://css.renrendoc.com/static/common/images/lazy-load.png",
+          "https://img.mbalib.com/doc/images/wd-logo.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.765242",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:54.766111",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.194698",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 4 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.195396",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 19 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://i-blog.csdnimg.cn/img_convert/9f0a10b5fcfabc74b7916ec0104ecc3a.jpeg",
+          "https://i-blog.csdnimg.cn/img_convert/0aeb0fc4311a77405e4b1a611080c2ae.jpeg",
+          "https://i-blog.csdnimg.cn/img_convert/36bb68ce29c759ebe142e6d6d20e44ad.jpeg",
+          "https://secure.food9wave.com/218919.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.196174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.197043",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1aeVTOL propulsion system battery technology advancements 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.762974",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.763737",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 16 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://i0.wp.com/steveblank.com/wp-content/uploads/2013/04/microsoft-accelerator-china.jpg?resize=468%2C500",
+          "https://www.isd.gov.hk/eng/images/bt_ISD_Logo.jpg",
+          "https://www.isd.gov.hk/eng/images/bt_BrandHK_Logo.jpg",
+          "https://www.isd.gov.hk/eng/images/bt_search.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.764595",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:16:55.765517",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1alow-altitude economy policy updates 2024-2025 China eVTOL regulations...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:17:09.802490",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:17:09.804561",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "2.1 \u6280\u672f\u539f\u7406\u4e0e\u53d1\u5c55\u73b0\u72b6\n\n\u98de\u884c\u6c7d\u8f66",
+    "metadata": [
+      "http://www.witlead.com.cn/",
+      "http://www.sz.gov.cn/Engish/gh_20250414.png",
+      "http://www.sz.gov.cn/pubimages/English/logo2.png",
+      "http://www.sz.gov.cn/pubimages/English/logo.png",
+      "https://css.renrendoc.com/static/common/images/logo-normal.png",
+      "https://file4.renrendoc.com/view16/M03/28/05/wKhkGmhlcaaAMyOsAAGEZPAJRGs147.jpg",
+      "https://css.renrendoc.com/static/common/images/lazy-load.png",
+      "https://img.mbalib.com/doc/images/wd-logo.png",
+      "https://i-blog.csdnimg.cn/img_convert/9f0a10b5fcfabc74b7916ec0104ecc3a.jpeg",
+      "https://i-blog.csdnimg.cn/img_convert/0aeb0fc4311a77405e4b1a611080c2ae.jpeg"
+    ]
+  }
+}

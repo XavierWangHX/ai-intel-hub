@@ -1,0 +1,682 @@
+{
+  "timestamp": "2025-07-17T06:34:21.547302",
+  "events": [
+    {
+      "timestamp": "2025-07-17T06:34:26.335431",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:26.335717",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\ude80 \u4f4e\u7a7a\u7ecf\u6d4e\u4e0e\u672a\u6765\u4ea4\u901a\u6280\u672f\u5206\u6790\u5e08Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:26.336285",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:27.512733",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:43.485320",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['low altitude economy market size growth projections 2025 policy updates', 'eVTOL flying car battery technology safety certification progress 2025', 'EHang XPeng Aeroht AutoFlight competitive analysis market share 2025']...",
+        "metadata": [
+          "low altitude economy market size growth projections 2025 policy updates",
+          "eVTOL flying car battery technology safety certification progress 2025",
+          "EHang XPeng Aeroht AutoFlight competitive analysis market share 2025",
+          "\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:43.485689",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'low altitude economy market size growth projections 2025 policy updates' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:43.487552",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'eVTOL flying car battery technology safety certification progress 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:43.488803",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'EHang XPeng Aeroht AutoFlight competitive analysis market share 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:43.490015",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.239037",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.aeroht.net/\n",
+        "metadata": "https://www.aeroht.net/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.239387",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.239926",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 1 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.499619",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.buaa.edu.cn/info/1006/66361.htm\n",
+        "metadata": "https://news.buaa.edu.cn/info/1006/66361.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.499955",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.buaa.edu.cn/info/1002/66360.htm\n",
+        "metadata": "https://news.buaa.edu.cn/info/1002/66360.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.500493",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://digitalpaper.stdaily.com/http_www.kjrb.com/ywtk/html/2024-08/24/content_576614.htm\n",
+        "metadata": "https://digitalpaper.stdaily.com/http_www.kjrb.com/ywtk/html/2024-08/24/content_576614.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.501062",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.stdaily.com/web/English/2024-08/28/content_218650.html\n",
+        "metadata": "https://m.stdaily.com/web/English/2024-08/28/content_218650.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.501627",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://digitalpaper.stdaily.com/http_www.kjrb.com/ywtk/html/2024-08/24/content_576624.htm\n",
+        "metadata": "https://digitalpaper.stdaily.com/http_www.kjrb.com/ywtk/html/2024-08/24/content_576624.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.502353",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://www.chinadaily.com.cn/a/202504/16/WS67ff19e1a3104d9fd381f9f8.html\n",
+        "metadata": "http://www.chinadaily.com.cn/a/202504/16/WS67ff19e1a3104d9fd381f9f8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.502923",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://cn.chinadaily.com.cn/a/202408/16/WS66bebfd5a310054d254ed1b8.html\n",
+        "metadata": "http://cn.chinadaily.com.cn/a/202408/16/WS66bebfd5a310054d254ed1b8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.503512",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://language.chinadaily.com.cn/a/202408/16/WS66bebfd0a3104e74fddba54a.html\n",
+        "metadata": "http://language.chinadaily.com.cn/a/202408/16/WS66bebfd0a3104e74fddba54a.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.504095",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.kekenet.com/read/202408/693484.shtml\n",
+        "metadata": "https://m.kekenet.com/read/202408/693484.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.504690",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.505303",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.573961",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/hyzx/20250512/172259973.shtml\n",
+        "metadata": "https://m.chinairn.com/hyzx/20250512/172259973.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.574409",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/JC72BQJA051998SC.html\n",
+        "metadata": "https://3g.163.com/news/article/JC72BQJA051998SC.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.575799",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/article/7415944590747812415/\n",
+        "metadata": "https://m.toutiao.com/article/7415944590747812415/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.576241",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/fund/sm/2024-12-16/detail-inczsfym5691967.d.html\n",
+        "metadata": "https://finance.sina.cn/fund/sm/2024-12-16/detail-inczsfym5691967.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.576895",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.book118.com/html/2024/1228/8037062024007013.shtm\n",
+        "metadata": "https://m.book118.com/html/2024/1228/8037062024007013.shtm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.577686",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/811477930_121733765/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/811477930_121733765/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.578349",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://doc.mbalib.com/view/1011168dc1c57c71ac16d8e1d03090c8.html\n",
+        "metadata": "https://doc.mbalib.com/view/1011168dc1c57c71ac16d8e1d03090c8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.579011",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.thepaper.cn/newsDetail_forward_29720887\n",
+        "metadata": "https://m.thepaper.cn/newsDetail_forward_29720887"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.579818",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/895079856_121822496/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/895079856_121822496/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.580526",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.581208",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.585861",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.feiauto.com/tt/748.html\n",
+        "metadata": "https://www.feiauto.com/tt/748.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.586372",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.gasgoo.com/news/70422736.html\n",
+        "metadata": "https://m.gasgoo.com/news/70422736.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.587137",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.itbear.com.cn/html/2025-04/803065.html\n",
+        "metadata": "http://m.itbear.com.cn/html/2025-04/803065.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.587817",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1809891558888774489\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1809891558888774489"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.588548",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.urbanaero.com/\n",
+        "metadata": "https://www.urbanaero.com/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.589272",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/2025-04-26/detail-ineunvux8566883.d.html\n",
+        "metadata": "https://finance.sina.cn/2025-04-26/detail-ineunvux8566883.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.589985",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JU5P55KD0556CLPV.html\n",
+        "metadata": "https://m.163.com/dy/article/JU5P55KD0556CLPV.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.590677",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://new.qq.com/rain/a/20250417A04ERU00\n",
+        "metadata": "https://new.qq.com/rain/a/20250417A04ERU00"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.591400",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3w.huanqiu.com/a/de583b/4Irk3I8mOAB\n",
+        "metadata": "https://3w.huanqiu.com/a/de583b/4Irk3I8mOAB"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.592188",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.592907",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.707919",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 1 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.710311",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 5 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://official-static.aeroht.com/img/pic6.png?x-oss-process=image/format,webp",
+          "https://official-static.aeroht.com/img/pic25-1.jpg?x-oss-process=image/format,webp",
+          "https://official-static.aeroht.com/img/pic31.jpeg?x-oss-process=image/format,webp",
+          "https://official-static.aeroht.com/icon/logo-en.svg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.712104",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:44.714949",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1aEHang XPeng Aeroht AutoFlight competitive analysis market share 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:45.335918",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 9 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:45.336600",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 76 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://news.buaa.edu.cn/images/logo-blue-left.png",
+          "https://news.buaa.edu.cn/images/logo-blue-right.png",
+          "https://news.buaa.edu.cn/images/logo-w-left.png",
+          "https://news.buaa.edu.cn/images/logo-w-right.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:45.337529",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:45.338506",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1alow altitude economy market size growth projections 2025 policy updates...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:46.673527",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:46.674293",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 43 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/834.jpg",
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/835.jpg",
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/836.jpg",
+          "https://img.mbalib.com/doc/images/wd-logo.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:46.675115",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:46.675986",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:50.758529",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:50.759327",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 49 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0427%2F6130c2c4j00svdapl002od000u000k0m.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+          "https://n.sinaimg.cn/sinakd10200/358/w179h179/20221208/d18a-fec7518e096680c9dcf99f0adbb68f73.jpg",
+          "https://k.sinaimg.cn/n/spider20250426/0/w1920h1280/20250426/c416-d299574686c45f47d4c4e7b3a2414c8f.jpg/w300h300z1l10t10q1007af.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:50.760200",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:50.761104",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1aeVTOL flying car battery technology safety certification progress 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:54.165970",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:34:54.167692",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "5] Huanqiu, \"eVTOL Test Flight Experience,\" August 3, 2024. Available: [https://3w.huanqiu.com/a/de583b/4Irk3I8mOAB](https://3w.huanqiu.com/a/de583b/4Irk3I8mOAB)\n\n[6",
+    "metadata": [
+      "https://official-static.aeroht.com/img/pic6.png?x-oss-process=image/format,webp",
+      "https://official-static.aeroht.com/img/pic25-1.jpg?x-oss-process=image/format,webp",
+      "https://official-static.aeroht.com/img/pic31.jpeg?x-oss-process=image/format,webp",
+      "https://official-static.aeroht.com/icon/logo-en.svg",
+      "https://news.buaa.edu.cn/images/logo-blue-left.png",
+      "https://news.buaa.edu.cn/images/logo-blue-right.png",
+      "https://news.buaa.edu.cn/images/logo-w-left.png",
+      "https://news.buaa.edu.cn/images/logo-w-right.png",
+      "https://imagepphcloud.thepaper.cn/pph/image/334/457/834.jpg",
+      "https://imagepphcloud.thepaper.cn/pph/image/334/457/835.jpg"
+    ]
+  }
+}

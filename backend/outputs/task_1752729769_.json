@@ -1,0 +1,541 @@
+{
+  "timestamp": "2025-07-17T05:22:49.234855",
+  "events": [
+    {
+      "timestamp": "2025-07-17T05:22:54.491766",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:22:54.492010",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udce1 \u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b\u6280\u672f\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:22:54.492610",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:22:55.755880",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:08.322309",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['2025 communication radiation source identification state-of-the-art methods beyond deep learning', 'limitations and challenges in practical communication emitter identification systems', 'comparison of machine learning vs deep learning approaches for RF fingerprinting 2024-2025']...",
+        "metadata": [
+          "2025 communication radiation source identification state-of-the-art methods beyond deep learning",
+          "limitations and challenges in practical communication emitter identification systems",
+          "comparison of machine learning vs deep learning approaches for RF fingerprinting 2024-2025",
+          "\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:08.322686",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '2025 communication radiation source identification state-of-the-art methods beyond deep learning' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:08.324093",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'limitations and challenges in practical communication emitter identification systems' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:08.325347",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'comparison of machine learning vs deep learning approaches for RF fingerprinting 2024-2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:08.326532",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.201642",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.renrendoc.com/paper/439623105.html\n",
+        "metadata": "https://m.renrendoc.com/paper/439623105.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.201963",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://mbook.kongfz.com/380866/8317380552/\n",
+        "metadata": "https://mbook.kongfz.com/380866/8317380552/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.202535",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://wap.cnki.net/touch/web/Dissertation/Article/10614-1022544258.nh.html\n",
+        "metadata": "https://wap.cnki.net/touch/web/Dissertation/Article/10614-1022544258.nh.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.203081",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://sjcj.nuaa.edu.cn/sjcjycl/article/abstract/25240186\n",
+        "metadata": "https://sjcj.nuaa.edu.cn/sjcjycl/article/abstract/25240186"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.203800",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://product.m.dangdang.com/detail29748111-0-1.html?category_id=13799&category_path=01.63.14.00.00.00&main_pid=0&pod_pid=&product_medium=0\n",
+        "metadata": "http://product.m.dangdang.com/detail29748111-0-1.html?category_id=13799&category_path=01.63.14.00.00.00&main_pid=0&pod_pid=&product_medium=0"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.204331",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.docin.com/touch_new/preview_new.do?id=4889554514\n",
+        "metadata": "http://m.docin.com/touch_new/preview_new.do?id=4889554514"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.204888",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.zhangqiaokeyan.com/academic-journal-cn_cfo_thesis/0201280124079.html\n",
+        "metadata": "https://m.zhangqiaokeyan.com/academic-journal-cn_cfo_thesis/0201280124079.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.205508",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.206048",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 7 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.260460",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.zhangqiaokeyan.com/academic-journal-foreign_detail_thesis/0204122391380.html\n",
+        "metadata": "https://m.zhangqiaokeyan.com/academic-journal-foreign_detail_thesis/0204122391380.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.260851",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://a.xueshu.baidu.com/usercenter/paper/show?paperid=1k0c00b0bt2c0pe0s3770pc0y6674690\n",
+        "metadata": "https://a.xueshu.baidu.com/usercenter/paper/show?paperid=1k0c00b0bt2c0pe0s3770pc0y6674690"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.261475",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.262060",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 2 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.291594",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://a.xueshu.baidu.com/usercenter/paper/show?paperid=90715a3cfb2bf58043b1b02aa7bdc665\n",
+        "metadata": "https://a.xueshu.baidu.com/usercenter/paper/show?paperid=90715a3cfb2bf58043b1b02aa7bdc665"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.292038",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1835779442197267334\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1835779442197267334"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.292663",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://dict.youdao.com/example/written/%E6%8E%A7%E5%88%B6%E5%B1%82/\n",
+        "metadata": "https://dict.youdao.com/example/written/%E6%8E%A7%E5%88%B6%E5%B1%82/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.293286",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.293911",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 3 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.381082",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.zhangqiaokeyan.com/academic-conference-foreign_meeting-223863_thesis/0205119198278.html\n",
+        "metadata": "https://m.zhangqiaokeyan.com/academic-conference-foreign_meeting-223863_thesis/0205119198278.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.381712",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.382555",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 1 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.901947",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 1 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.903715",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 10 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://cdn.zhangqiaokeyan.com/v/newimg/logo.png",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/fire.jpg",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon1.png",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon2.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.904913",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:09.906047",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1acomparison of machine learning vs deep learning approaches for RF fingerprinting 2024-2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.011656",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 2 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.016181",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 3 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 3 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2021-12/1640226104569/keyan.png",
+          "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2020-11/1606363009781/baiduyun.png",
+          "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2021-5/1621326465289/baidufanyi.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.017552",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.019027",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a2025 communication radiation source identification state-of-the-art methods beyond deep learning...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.026899",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 2 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.027428",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 13 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon3.png",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon4.png",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon5.png",
+          "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon6.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.029525",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.030608",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1alimitations and challenges in practical communication emitter identification systems...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.337039",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.337687",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 47 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://user.kongfz.com/data/member_pic/698/11610698.jpg",
+          "https://www0.kfzimg.com/sw/kfzimg/1445/011233b69e423d62d4_s.jpg",
+          "https://www0.kfzimg.com/sw/kfzimg/1445/01123556caa2553431_s.jpg",
+          "https://www0.kfzimg.com/sw/kfzimg/2371/01e2237b5e877e1692_s.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.338414",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:10.339223",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:12.747904",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:23:12.749579",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T05:24:58.291341",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd \u5df2\u4e3a '\u901a\u4fe1\u8f90\u5c04\u6e90\u8bc6\u522b' \u64b0\u5199\u5b8c\u6210\u62a5\u544a\u3002",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "[6] \u5357\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66\u5b66\u62a5, \"\u57fa\u4e8e\u5bbd\u5ea6\u5b66\u4e60\u548c\u6ce8\u610f\u529b\u673a\u5236\u7684\u5c0f\u6837\u672c\u901a\u4fe1\u8f90\u5c04\u6e90\u4e2a\u4f53\u8bc6\u522b\u65b9\u6cd5\". \u6765\u6e90: [https://sjcj.nuaa.edu.cn/sjcjycl/article/abstract/25240186](https://sjcj.nuaa.edu.cn/sjcjycl/article/abstract/25240186)",
+    "metadata": [
+      "https://cdn.zhangqiaokeyan.com/v/newimg/logo.png",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/fire.jpg",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon1.png",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon2.png",
+      "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2021-12/1640226104569/keyan.png",
+      "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2020-11/1606363009781/baiduyun.png",
+      "https://bj.bcebos.com/v1/ps-scholar-amis-standard/2021-5/1621326465289/baidufanyi.png",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon3.png",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon4.png",
+      "https://cdn.zhangqiaokeyan.com/v/newimg/aitopicon5.png"
+    ]
+  }
+}

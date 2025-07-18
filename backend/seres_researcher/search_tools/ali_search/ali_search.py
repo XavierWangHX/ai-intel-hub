@@ -28,7 +28,7 @@ class AliSearch:
         config.endpoint = 'iqs.cn-zhangjiakou.aliyuncs.com'
         return Client(config)
 
-    def search(self, max_results=7, time_range: str = "OneMonth", industry: Optional[str] = None) -> list[dict[str, str]]:
+    def search(self, max_results=7, time_range: str = "OneYear", industry: Optional[str] = None) -> list[dict[str, str]]:
         print(f"正在使用AliSearch搜索相关信息...")
         client = self.create_client()
         request = models.GenericSearchRequest(

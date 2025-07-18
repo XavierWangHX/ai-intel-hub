@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-07-17T03:35:09.186407",
+  "events": [
+    {
+      "timestamp": "2025-07-17T03:35:14.656686",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:14.656954",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\u2708\ufe0f \u4f4e\u7a7a\u7ecf\u6d4e\u4e0e\u672a\u6765\u4ea4\u901a\u4ea7\u4e1a\u5206\u6790\u5e08Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:17.076458",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:18.460412",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.164860",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['\u4f4e\u7a7a\u7ecf\u6d4e \u5e02\u573a\u89c4\u6a21 \u4ea7\u4e1a\u62a5\u544a 2025\u5e74\u6700\u65b0\u6570\u636e', '\u98de\u884c\u6c7d\u8f66 eVTOL \u6280\u672f\u6807\u51c6 \u9002\u822a\u8ba4\u8bc1 \u5b89\u5168\u6311\u6218', '\u4f4e\u7a7a\u7ecf\u6d4e\u653f\u7b56 \u7a7a\u57df\u7ba1\u7406 \u4e2d\u56fd \u7f8e\u56fd \u6b27\u76df \u6bd4\u8f83']...",
+        "metadata": [
+          "\u4f4e\u7a7a\u7ecf\u6d4e \u5e02\u573a\u89c4\u6a21 \u4ea7\u4e1a\u62a5\u544a 2025\u5e74\u6700\u65b0\u6570\u636e",
+          "\u98de\u884c\u6c7d\u8f66 eVTOL \u6280\u672f\u6807\u51c6 \u9002\u822a\u8ba4\u8bc1 \u5b89\u5168\u6311\u6218",
+          "\u4f4e\u7a7a\u7ecf\u6d4e\u653f\u7b56 \u7a7a\u57df\u7ba1\u7406 \u4e2d\u56fd \u7f8e\u56fd \u6b27\u76df \u6bd4\u8f83",
+          "\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.165373",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u4f4e\u7a7a\u7ecf\u6d4e \u5e02\u573a\u89c4\u6a21 \u4ea7\u4e1a\u62a5\u544a 2025\u5e74\u6700\u65b0\u6570\u636e' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.165792",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u4f4e\u7a7a\u7ecf\u6d4e \u5e02\u573a\u89c4\u6a21 \u4ea7\u4e1a\u62a5\u544a 2025\u5e74\u6700\u65b0\u6570\u636e...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.526526",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u98de\u884c\u6c7d\u8f66 eVTOL \u6280\u672f\u6807\u51c6 \u9002\u822a\u8ba4\u8bc1 \u5b89\u5168\u6311\u6218' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.533902",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u98de\u884c\u6c7d\u8f66 eVTOL \u6280\u672f\u6807\u51c6 \u9002\u822a\u8ba4\u8bc1 \u5b89\u5168\u6311\u6218...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.813212",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u4f4e\u7a7a\u7ecf\u6d4e\u653f\u7b56 \u7a7a\u57df\u7ba1\u7406 \u4e2d\u56fd \u7f8e\u56fd \u6b27\u76df \u6bd4\u8f83' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:36.814318",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u4f4e\u7a7a\u7ecf\u6d4e\u653f\u7b56 \u7a7a\u57df\u7ba1\u7406 \u4e2d\u56fd \u7f8e\u56fd \u6b27\u76df \u6bd4\u8f83...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:37.080774",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:35:37.093771",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:36:10.456064",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T03:36:10.456588",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "output": "ocopter       | \u591a\u65cb\u7ffc\u8bbe\u8ba1\uff0c\u566a\u97f3\u4f4e     | \u5df2\u83b7\u6b27\u6d32\u822a\u7a7a\u5b89\u5168\u5c40\u8ba4\u8bc1          |\n| "
+  }
+}

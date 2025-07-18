@@ -1,0 +1,677 @@
+{
+  "timestamp": "2025-07-17T08:15:33.884028",
+  "events": [
+    {
+      "timestamp": "2025-07-17T08:15:36.858427",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u8c01\u521b\u7acb\u7684\u4f60' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:36.858635",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83e\udd16 AI\u8bed\u8a00\u6a21\u578b\u5f00\u53d1\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:36.859169",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:38.154300",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:52.711327",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['DeepSeek AI \u521b\u59cb\u4eba', 'DeepSeek R1 \u7814\u53d1\u56e2\u961f\u80cc\u666f', '\u6df1\u5ea6\u6c42\u7d22\u516c\u53f8 \u521b\u59cb\u4eba']...",
+        "metadata": [
+          "DeepSeek AI \u521b\u59cb\u4eba",
+          "DeepSeek R1 \u7814\u53d1\u56e2\u961f\u80cc\u666f",
+          "\u6df1\u5ea6\u6c42\u7d22\u516c\u53f8 \u521b\u59cb\u4eba",
+          "\u8c01\u521b\u7acb\u7684\u4f60"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:52.711628",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'DeepSeek AI \u521b\u59cb\u4eba' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:52.712931",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 'DeepSeek R1 \u7814\u53d1\u56e2\u961f\u80cc\u666f' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:52.714192",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u6df1\u5ea6\u6c42\u7d22\u516c\u53f8 \u521b\u59cb\u4eba' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:52.715318",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u8c01\u521b\u7acb\u7684\u4f60' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.551795",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://zhidao.baidu.com/question/1586807497460315820.html\n",
+        "metadata": "https://zhidao.baidu.com/question/1586807497460315820.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.552092",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://zhidao.baidu.com/question/2129152486842277787.html\n",
+        "metadata": "https://zhidao.baidu.com/question/2129152486842277787.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.552615",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://zhidao.baidu.com/question/930675645032315219.html\n",
+        "metadata": "https://zhidao.baidu.com/question/930675645032315219.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.553174",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1830942921637130316\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1830942921637130316"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.553728",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1827683044637363434\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1827683044637363434"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.554296",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1822969778441665397\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1822969778441665397"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.554859",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:53.555411",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 6 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.033312",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://agents.baidu.com/content/question/4b3c7ea5bc38608a5fe3d39a\n",
+        "metadata": "https://agents.baidu.com/content/question/4b3c7ea5bc38608a5fe3d39a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.033702",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.huabkw.com/baike/45992/cid/26.html\n",
+        "metadata": "http://m.huabkw.com/baike/45992/cid/26.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.034328",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/w/1827372793531395/\n",
+        "metadata": "https://m.toutiao.com/w/1827372793531395/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.034931",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.sina.cn/sx/2025-07-15/detail-inffqazq2023953.d.html\n",
+        "metadata": "https://news.sina.cn/sx/2025-07-15/detail-inffqazq2023953.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.035914",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.thepaper.cn/newsDetail_forward_30100152\n",
+        "metadata": "https://m.thepaper.cn/newsDetail_forward_30100152"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.036454",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1825045991130513754\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1825045991130513754"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.037062",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.038583",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 6 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.058876",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 0 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.059347",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 0 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 0 \u5f20\u65b0\u56fe\u7247",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.060132",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.060780",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u8c01\u521b\u7acb\u7684\u4f60...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.062043",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 \u6ca1\u6709\u627e\u5230 '\u8c01\u521b\u7acb\u7684\u4f60' \u7684\u76f8\u5173\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.239969",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.blog.csdn.net/2401_82505179/article/details/145538636\n",
+        "metadata": "https://m.blog.csdn.net/2401_82505179/article/details/145538636"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.240476",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/868953196_121956424/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/868953196_121956424/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.241153",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.feishu.cn/content/deepseek-r1-ai-model-feishu-integration-efficient-inference-cost-revolution\n",
+        "metadata": "https://www.feishu.cn/content/deepseek-r1-ai-model-feishu-integration-efficient-inference-cost-revolution"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.241825",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.blog.csdn.net/liumao99/article/details/145574384\n",
+        "metadata": "https://m.blog.csdn.net/liumao99/article/details/145574384"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.242501",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.huxiu.com/article/3986403\n",
+        "metadata": "https://m.huxiu.com/article/3986403"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.243202",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.243883",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 5 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.468118",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 4 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.468690",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 17 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://n.sinaimg.cn/default/transform/360/w180h180/20230214/38ee-388f40e0914913fbe0ec2a6aab6a7ce5.jpg",
+          "https://k.sinaimg.cn/n/spider20250715/196/w650h346/20250715/d2ca-68b251e6d992f5c4e6490ae71f1a9c18.png/w300h300z1l10t10q100c5e.jpg",
+          "https://n.sinaimg.cn/default/2fb77759/20151125/320X320.png",
+          "https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-17/53aec5a5-4e8e-4979-8373-3fdc703a57dd.JPEG?x-bce-process=image/format,f_webp"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.469415",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.470178",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u6df1\u5ea6\u6c42\u7d22\u516c\u53f8 \u521b\u59cb\u4eba...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.556902",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.thepaper.cn/newsDetail_forward_30127278\n",
+        "metadata": "https://m.thepaper.cn/newsDetail_forward_30127278"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.557720",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1822542897251023510\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1822542897251023510"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.558467",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1822964386746934638\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1822964386746934638"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.559203",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1824278033149171394\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1824278033149171394"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.559982",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://new.qq.com/rain/a/20250201A0662200\n",
+        "metadata": "https://new.qq.com/rain/a/20250201A0662200"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.560753",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JMVNUAUQ0539KVZ8.html\n",
+        "metadata": "https://m.163.com/dy/article/JMVNUAUQ0539KVZ8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.561906",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.leikeji.com/article/68936\n",
+        "metadata": "https://www.leikeji.com/article/68936"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.564185",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1822448873465630356\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1822448873465630356"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.566627",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JMUGST7A05119R2R.html\n",
+        "metadata": "https://m.163.com/dy/article/JMUGST7A05119R2R.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.567284",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1823790280975039550\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1823790280975039550"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.568086",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:54.570723",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.112245",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 5 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.112928",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 32 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://nimg.ws.126.net/?url=https%3A%2F%2Fstatic.ws.126.net%2Ff2e%2Fwap%2Fcommon%2Fimages%2Fweixinfixed1200low.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+          "https://www.leikeji.com/static/common/logo-search-200.jpg",
+          "https://www.leikeji.com/static/common/logo-search-121.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.113830",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.114700",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1aDeepSeek AI \u521b\u59cb\u4eba...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.185913",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 4 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.186678",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 20 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://i-blog.csdnimg.cn/direct/cfccd8b0e25b4848b4941a08fb4d7e3d.png",
+          "https://i-blog.csdnimg.cn/direct/d27c6c9990cc412da925d4c98c9244f0.png",
+          "https://i-blog.csdnimg.cn/direct/5f60251003c344eabb94c879dac5bfae.png",
+          "https://csdnimg.cn/release/blogv2/dist/pc/img/original.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.187541",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:55.188436",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1aDeepSeek R1 \u7814\u53d1\u56e2\u961f\u80cc\u666f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:56.934674",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:15:56.936345",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u8c01\u521b\u7acb\u7684\u4f60' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "## \u4e00\u3001\u6881\u6587\u950b\u7684\u4e2a\u4eba\u80cc\u666f\u4e0e\u6559\u80b2\u7ecf\u5386\n\n\u6881",
+    "metadata": [
+      "https://n.sinaimg.cn/default/transform/360/w180h180/20230214/38ee-388f40e0914913fbe0ec2a6aab6a7ce5.jpg",
+      "https://k.sinaimg.cn/n/spider20250715/196/w650h346/20250715/d2ca-68b251e6d992f5c4e6490ae71f1a9c18.png/w300h300z1l10t10q100c5e.jpg",
+      "https://n.sinaimg.cn/default/2fb77759/20151125/320X320.png",
+      "https://lingjing-online.cdn.bcebos.com/v1/lingjing-online/agent_logo/2025-02-17/53aec5a5-4e8e-4979-8373-3fdc703a57dd.JPEG?x-bce-process=image/format,f_webp",
+      "https://nimg.ws.126.net/?url=https%3A%2F%2Fstatic.ws.126.net%2Ff2e%2Fwap%2Fcommon%2Fimages%2Fweixinfixed1200low.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+      "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+      "https://www.leikeji.com/static/common/logo-search-200.jpg",
+      "https://www.leikeji.com/static/common/logo-search-121.png",
+      "https://i-blog.csdnimg.cn/direct/cfccd8b0e25b4848b4941a08fb4d7e3d.png",
+      "https://i-blog.csdnimg.cn/direct/d27c6c9990cc412da925d4c98c9244f0.png"
+    ]
+  }
+}

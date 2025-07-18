@@ -1,0 +1,782 @@
+{
+  "timestamp": "2025-07-17T08:11:15.438874",
+  "events": [
+    {
+      "timestamp": "2025-07-17T08:11:20.702613",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:20.702881",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcca \u8206\u60c5\u5206\u6790\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:20.703477",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:21.564665",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:39.544220",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['\u95ee\u754cM8 \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 2025', '\u95ee\u754cM8 \u4f18\u7f3a\u70b9\u5206\u6790 \u53e3\u7891 \u6c7d\u8f66\u8bba\u575b 2025', '\u95ee\u754cM8 \u5e02\u573a\u53cd\u9988 \u9500\u91cf \u7528\u6237\u6ee1\u610f\u5ea6 \u8206\u60c5\u62a5\u544a 2025']...",
+        "metadata": [
+          "\u95ee\u754cM8 \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 2025",
+          "\u95ee\u754cM8 \u4f18\u7f3a\u70b9\u5206\u6790 \u53e3\u7891 \u6c7d\u8f66\u8bba\u575b 2025",
+          "\u95ee\u754cM8 \u5e02\u573a\u53cd\u9988 \u9500\u91cf \u7528\u6237\u6ee1\u610f\u5ea6 \u8206\u60c5\u62a5\u544a 2025",
+          "\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:39.544574",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:39.546110",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u4f18\u7f3a\u70b9\u5206\u6790 \u53e3\u7891 \u6c7d\u8f66\u8bba\u575b 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:39.547365",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u5e02\u573a\u53cd\u9988 \u9500\u91cf \u7528\u6237\u6ee1\u610f\u5ea6 \u8206\u60c5\u62a5\u544a 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:39.548444",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.431577",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/8003\n",
+        "metadata": "https://k.m.autohome.com.cn/8003"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.431921",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1827498954789096745\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1827498954789096745"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.432450",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/a1826221766141084/\n",
+        "metadata": "https://m.toutiao.com/a1826221766141084/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.433130",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/98787365/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/98787365/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.433701",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://club.m.autohome.com.cn/bbs/thread-a-23-111451852-1.html\n",
+        "metadata": "https://club.m.autohome.com.cn/bbs/thread-a-23-111451852-1.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.434241",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://club.m.autohome.com.cn/bbs/thread/0942cebd5a0db4e0/110912623-1.html?from=m\n",
+        "metadata": "https://club.m.autohome.com.cn/bbs/thread/0942cebd5a0db4e0/110912623-1.html?from=m"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.434812",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.12365auto.com/xcdg/20250527/548463_3.shtml\n",
+        "metadata": "https://m.12365auto.com/xcdg/20250527/548463_3.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.435374",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1830817962259488624\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1830817962259488624"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.435945",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/JTBOVB9H05128A8R.html\n",
+        "metadata": "https://3g.163.com/news/article/JTBOVB9H05128A8R.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.436514",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/911347795_269032/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/911347795_269032/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.437151",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:40.437787",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.022305",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/a7496704228803510818/\n",
+        "metadata": "https://m.toutiao.com/a7496704228803510818/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.022748",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://auto.ifeng.com/c/8kmhhQjuKVr\n",
+        "metadata": "https://auto.ifeng.com/c/8kmhhQjuKVr"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.023364",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/903110259_121955005/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/903110259_121955005/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.023994",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/article/7500252649586098723/\n",
+        "metadata": "https://m.toutiao.com/article/7500252649586098723/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.024635",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://view.inews.qq.com/a/20250710A06LV700\n",
+        "metadata": "https://view.inews.qq.com/a/20250710A06LV700"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.025316",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/885613914_121425770/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/885613914_121425770/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.025957",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.autohome.com.cn/8003/21889/ge2/0-0-2?\n",
+        "metadata": "https://k.autohome.com.cn/8003/21889/ge2/0-0-2?"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.026750",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/900652000_121880955/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/900652000_121880955/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.027684",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://www.cnr.cn/2013qcpd/hy/20250506/t20250506_527160664.shtml\n",
+        "metadata": "http://www.cnr.cn/2013qcpd/hy/20250506/t20250506_527160664.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.028523",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://pit.ifeng.com/c/8joUiJLJQuM\n",
+        "metadata": "https://pit.ifeng.com/c/8joUiJLJQuM"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.029363",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.030637",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.047045",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.047717",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 35 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://sucimg.itc.cn/avatarimg/aaa564e9d2fa4e79bc3cca436868a3f7_1446019383031",
+          "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0417%2Fae1ec188j00sutj40001kd000p000irg.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+          "https://k2.autoimg.cn/koubeidfs/g25/M00/7B/27/autohomecar__ChtliGhHoW2AQajwAAGoqACCBis060.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.048316",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.049090",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.159007",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.16888.com/news/2025/0613/23782687.html\n",
+        "metadata": "https://m.16888.com/news/2025/0613/23782687.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.163232",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://mparticle.uc.cn/article.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_aid=a51cd104f946fc11dc2a6886a0f1d74f!!wm_id=d2f0fedb87284a6b8272a6008fbbfa3c\n",
+        "metadata": "https://mparticle.uc.cn/article.html?uc_param_str=frdnsnpfvecpntnwprdssskt#!wm_aid=a51cd104f946fc11dc2a6886a0f1d74f!!wm_id=d2f0fedb87284a6b8272a6008fbbfa3c"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.163892",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/902010668_121875619/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/902010668_121875619/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.164615",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/885819815_122066676/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/885819815_122066676/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.165360",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/904156121_122362510/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/904156121_122362510/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.166109",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/902031347_122354587/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/902031347_122354587/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.167061",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.k618.cn/finance/money/202504/t20250430_19834543.html\n",
+        "metadata": "https://news.k618.cn/finance/money/202504/t20250430_19834543.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.168259",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.com.cn/tech/roll/2025-06-18/doc-infapccz5526621.shtml\n",
+        "metadata": "https://finance.sina.com.cn/tech/roll/2025-06-18/doc-infapccz5526621.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.169267",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.170162",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 8 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.171551",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.12365auto.com/review/4198_76317_0_1.shtml\n",
+        "metadata": "https://www.12365auto.com/review/4198_76317_0_1.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.173553",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/pages/dongtai/index?from_src=biji_tab&id=5373886002\n",
+        "metadata": "https://m.yoojia.com/pages/dongtai/index?from_src=biji_tab&id=5373886002"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.174682",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/K2OEJOH005524R8V.html\n",
+        "metadata": "https://m.163.com/dy/article/K2OEJOH005524R8V.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.176666",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/article/9292306094383542812.html\n",
+        "metadata": "https://m.yoojia.com/article/9292306094383542812.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.177266",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1833424205115247111\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1833424205115247111"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.178074",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.autohome.com.cn/detail/view_01jys388ke6mv36d1q60wg0000.html\n",
+        "metadata": "https://k.autohome.com.cn/detail/view_01jys388ke6mv36d1q60wg0000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.178904",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.autohome.com.cn/detail/view_01jyvza2ja6mv36d9q60s00000.html\n",
+        "metadata": "https://k.autohome.com.cn/detail/view_01jyvza2ja6mv36d9q60s00000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.180119",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/8003/21889/\n",
+        "metadata": "https://k.m.autohome.com.cn/8003/21889/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.182208",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1833326121850992792\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1833326121850992792"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.183218",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.184202",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.603495",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.604306",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 34 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://q1.itc.cn/q_70,c_lfill,w_60,h_60,g_face/images03/20250321/e0ec9d0a596d499590f43f37dde6e8e1.png",
+          "https://beacon.sina.com.cn/a.gif?noScript",
+          "https://i.sso.sina.com.cn/images/login/thumb_default.png",
+          "https://n.sinaimg.cn/finance/cece9e13/20190517/0516_zwKeyWordBanner.jpeg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.605149",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.606094",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u5e02\u573a\u53cd\u9988 \u9500\u91cf \u7528\u6237\u6ee1\u610f\u5ea6 \u8206\u60c5\u62a5\u544a 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.860596",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.862215",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 33 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://z.autoimg.cn/sou/pc/icon-clear.png",
+          "https://z.autoimg.cn/k/pc/list/img/blank1830x100.png",
+          "https://car2.autoimg.cn/cardfs/series/g31/M06/B2/AF/480x360_autohomecar__ChtlyGXmuiuAe_IuAAEikH40244503.png",
+          "https://g.autoimg.cn/@img/car3/cardfs/series/g31/M02/08/D7/430x326_autohomecar__ChtlyGf_VIyAcKebAAYz3Liwnu0090.png.webp?format=webp"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.863621",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:41.865885",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:42.099991",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 6 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:42.100871",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 51 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://k.autohome.com.cn/detail/view_01jyvza2ja6mv36d9q60s00000.html",
+          "https://k.autohome.com.cn/detail/view_01jys388ke6mv36d1q60wg0000.html",
+          "http://i2.autoimg.cn/usercenter/g30/M01/0C/21/120X120_0_q87_autohomecar__CjIFU2T-znCAI9VYAADaggFIkfI117.png",
+          "https://x.autoimg.cn/k/javafront/detail/images/view.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:42.101839",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:42.102837",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u4f18\u7f3a\u70b9\u5206\u6790 \u53e3\u7891 \u6c7d\u8f66\u8bba\u575b 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:44.531667",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:44.533767",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:13:10.061522",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd \u5df2\u4e3a '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u64b0\u5199\u5b8c\u6210\u62a5\u544a\u3002",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": " [\u7535\u52a8\u6c7d\u8f66\u7528\u6237\u8054\u76df. (2025). 46\u9875|\u95ee\u754cM8\u5927\u5b9a\u3001\u63d0\u8f66\u7528\u6237\u6d1e\u5bdf\u62a5\u544a](https://m.sohu.com/a/903110259_121955005/?pvid=000115_3w_a)",
+    "metadata": [
+      "https://sucimg.itc.cn/avatarimg/aaa564e9d2fa4e79bc3cca436868a3f7_1446019383031",
+      "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0417%2Fae1ec188j00sutj40001kd000p000irg.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+      "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+      "https://k2.autoimg.cn/koubeidfs/g25/M00/7B/27/autohomecar__ChtliGhHoW2AQajwAAGoqACCBis060.png",
+      "https://q1.itc.cn/q_70,c_lfill,w_60,h_60,g_face/images03/20250321/e0ec9d0a596d499590f43f37dde6e8e1.png",
+      "https://beacon.sina.com.cn/a.gif?noScript",
+      "https://i.sso.sina.com.cn/images/login/thumb_default.png",
+      "https://n.sinaimg.cn/finance/cece9e13/20190517/0516_zwKeyWordBanner.jpeg",
+      "https://z.autoimg.cn/sou/pc/icon-clear.png",
+      "https://z.autoimg.cn/k/pc/list/img/blank1830x100.png"
+    ]
+  }
+}

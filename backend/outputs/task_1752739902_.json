@@ -1,0 +1,707 @@
+{
+  "timestamp": "2025-07-17T08:11:42.164865",
+  "events": [
+    {
+      "timestamp": "2025-07-17T08:11:49.128860",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:49.129046",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcca \u8206\u60c5\u5206\u6790\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:49.129627",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:11:49.800512",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.139267",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['\u95ee\u754cM8 2025\u6b3e \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 site:autohome.com.cn OR site:baidu.com OR site:toutiao.com after:2024-07-17', '\u95ee\u754cM8 \u8206\u60c5\u5206\u6790 \u4f18\u7f3a\u70b9 \u8d8b\u52bf \u53e3\u7891 \u62a5\u544a 2025', '\u95ee\u754cM8 vs \u7406\u60f3L8 \u7528\u6237\u4f53\u9a8c \u8bc4\u4ef7\u5bf9\u6bd4 \u5e02\u573a\u53cd\u9988 2025']...",
+        "metadata": [
+          "\u95ee\u754cM8 2025\u6b3e \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 site:autohome.com.cn OR site:baidu.com OR site:toutiao.com after:2024-07-17",
+          "\u95ee\u754cM8 \u8206\u60c5\u5206\u6790 \u4f18\u7f3a\u70b9 \u8d8b\u52bf \u53e3\u7891 \u62a5\u544a 2025",
+          "\u95ee\u754cM8 vs \u7406\u60f3L8 \u7528\u6237\u4f53\u9a8c \u8bc4\u4ef7\u5bf9\u6bd4 \u5e02\u573a\u53cd\u9988 2025",
+          "\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.139603",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 2025\u6b3e \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 site:autohome.com.cn OR site:baidu.com OR site:toutiao.com after:2024-07-17' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.140851",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u8206\u60c5\u5206\u6790 \u4f18\u7f3a\u70b9 \u8d8b\u52bf \u53e3\u7891 \u62a5\u544a 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.141844",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 vs \u7406\u60f3L8 \u7528\u6237\u4f53\u9a8c \u8bc4\u4ef7\u5bf9\u6bd4 \u5e02\u573a\u53cd\u9988 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.142869",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.297668",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.298002",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 0 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.298597",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 0 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.299087",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 0 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 0 \u5f20\u65b0\u56fe\u7247",
+        "metadata": []
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.299623",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.300825",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 2025\u6b3e \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 site:autohome.com.cn OR site:baidu.com OR site:toutiao.com after:2024-07-17...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.301828",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subquery_context_not_found",
+        "output": "\ud83e\udd37 \u6ca1\u6709\u627e\u5230 '\u95ee\u754cM8 2025\u6b3e \u7528\u6237\u8bc4\u4ef7 \u6b63\u9762 \u8d1f\u9762 \u5bf9\u6bd4 site:autohome.com.cn OR site:baidu.com OR site:toutiao.com after:2024-07-17' \u7684\u76f8\u5173\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.870168",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/8003\n",
+        "metadata": "https://k.m.autohome.com.cn/8003"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.870544",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1827498954789096745\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1827498954789096745"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.871131",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/a1826221766141084/\n",
+        "metadata": "https://m.toutiao.com/a1826221766141084/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.871711",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/98787365/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/98787365/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.872324",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://club.m.autohome.com.cn/bbs/thread-a-23-111451852-1.html\n",
+        "metadata": "https://club.m.autohome.com.cn/bbs/thread-a-23-111451852-1.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.873011",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://club.m.autohome.com.cn/bbs/thread/0942cebd5a0db4e0/110912623-1.html?from=m\n",
+        "metadata": "https://club.m.autohome.com.cn/bbs/thread/0942cebd5a0db4e0/110912623-1.html?from=m"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.873616",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.12365auto.com/xcdg/20250527/548463_3.shtml\n",
+        "metadata": "https://m.12365auto.com/xcdg/20250527/548463_3.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.874243",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1830817962259488624\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1830817962259488624"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.874860",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/JTBOVB9H05128A8R.html\n",
+        "metadata": "https://3g.163.com/news/article/JTBOVB9H05128A8R.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.875469",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/911347795_269032/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/911347795_269032/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.876119",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:06.876758",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.429648",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://auto.ifeng.com/c/8kmhhQjuKVr\n",
+        "metadata": "https://auto.ifeng.com/c/8kmhhQjuKVr"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.430183",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/article/9292306094383542812.html\n",
+        "metadata": "https://m.yoojia.com/article/9292306094383542812.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.430859",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.autohome.com.cn/detail/view_01jtg62dnm6mv30c1n6msg0000.html\n",
+        "metadata": "https://k.autohome.com.cn/detail/view_01jtg62dnm6mv30c1n6msg0000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.431519",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://xueqiu.com/7659667127/326837233?md5__1038=YqGxnDuD9Qp42DBwesGkQG83DCKldtU3x\n",
+        "metadata": "https://xueqiu.com/7659667127/326837233?md5__1038=YqGxnDuD9Qp42DBwesGkQG83DCKldtU3x"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.432197",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.autohome.com.cn/detail/view_01jtg70jqx6mv30c1n6mv00000.html\n",
+        "metadata": "https://k.autohome.com.cn/detail/view_01jtg70jqx6mv30c1n6mv00000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.432882",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/8003/\n",
+        "metadata": "https://k.m.autohome.com.cn/8003/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.433575",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/detail/view_01jttj81rh6mv30chn6wt00000.html\n",
+        "metadata": "https://k.m.autohome.com.cn/detail/view_01jttj81rh6mv30chn6wt00000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.434256",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.m.autohome.com.cn/detail/view_01jy6kdg8e6mv34dsp64vg0000.html\n",
+        "metadata": "https://k.m.autohome.com.cn/detail/view_01jy6kdg8e6mv34dsp64vg0000.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.434966",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1828650057502611487\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1828650057502611487"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.435668",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/a7509301394483053097/\n",
+        "metadata": "https://m.toutiao.com/a7509301394483053097/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.436412",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.437141",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.696815",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.697465",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 35 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0417%2Fae1ec188j00sutj40001kd000p000irg.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+          "https://i2.autoimg.cn/ucsystemdfs/g31/M09/27/4C/120X120_0_q87_autohomecar__ChtlyGexyhKAIacYAAFVgoSyF7Y702.jpg",
+          "https://sucimg.itc.cn/avatarimg/aaa564e9d2fa4e79bc3cca436868a3f7_1446019383031"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.698184",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.698990",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.767631",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.pcauto.com.cn/note/843990107739396243.html\n",
+        "metadata": "https://m.pcauto.com.cn/note/843990107739396243.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.768794",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/894875435_362225/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/894875435_362225/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.769846",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://club.m.autohome.com.cn/bbs/thread-a-23-111440663-1.html\n",
+        "metadata": "https://club.m.autohome.com.cn/bbs/thread-a-23-111440663-1.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.770804",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JVF2NE5D0550E6MO.html\n",
+        "metadata": "https://m.163.com/dy/article/JVF2NE5D0550E6MO.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.771842",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.pcauto.com.cn/note/843734360328766848.html\n",
+        "metadata": "https://m.pcauto.com.cn/note/843734360328766848.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.772856",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/100158497/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/100158497/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.774015",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1829309209258899038\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1829309209258899038"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.775177",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/dongtai/3685262002\n",
+        "metadata": "https://m.yoojia.com/dongtai/3685262002"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.776224",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.pcauto.com.cn/note/843526931283444777.html\n",
+        "metadata": "https://m.pcauto.com.cn/note/843526931283444777.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.777371",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:07.779218",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.267414",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.269656",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 50 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://k.autohome.com.cn/detail/view_01jtg62dnm6mv30c1n6msg0000.html",
+          "https://k.autohome.com.cn/detail/view_01jtg70jqx6mv30c1n6mv00000.html",
+          "https://xavatar.imedao.com/community/20253/1744429798484-1744429798688.png!100x100.png",
+          "https://xqimg.imedao.com/195839f014550eb03fe1f120.png!800.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.271874",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.273455",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u8206\u60c5\u5206\u6790 \u4f18\u7f3a\u70b9 \u8d8b\u52bf \u53e3\u7891 \u62a5\u544a 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.725176",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 7 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.726054",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 43 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0513%2F8562e1aej00sw6zz200nmd200u000cvg00it0082.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://i6.3conline.com/images/upload/upc/face/52/21/29/90/52212990_120x120?t=202507171611",
+          "https://img4.pcauto.com.cn/pcauto/images/poster_ai/20250629/29231060.png?x-oss-process=image/resize,w_800/format,webp/quality,q_80",
+          "https://img.pcauto.com.cn/images/upload/upc/tx/auto5/2503/07/c0/487747867_1741315721872.jpg?x-oss-process=image/resize,w_800/format,webp/quality,q_80"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.726916",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:08.727885",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 vs \u7406\u60f3L8 \u7528\u6237\u4f53\u9a8c \u8bc4\u4ef7\u5bf9\u6bd4 \u5e02\u573a\u53cd\u9988 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:10.676289",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:10.678105",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:13:06.399528",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "report_written",
+        "output": "\ud83d\udcdd \u5df2\u4e3a '\u751f\u6210\u5bf9\u8be5\u8f66\u578b:\u95ee\u754cM8\u7684\u8206\u60c5\u5206\u6790\uff0c\u4ec5\u8f93\u51fa\u6b63\u8d1f\u9762\u8bc4\u4ef7\u7684\u5bf9\u6bd4\u3001\u5bf9\u8206\u60c5\u8bc4\u4ef7\u7684\u5206\u6790\u548c\u7ed3\u8bba\u3002' \u64b0\u5199\u5b8c\u6210\u62a5\u544a\u3002",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "\u51e4\u51f0\u7f51. (2025). 2025\u6b3e\u95ee\u754cM8\u65b0\u8f66\u5546\u54c1\u6027\u8bc4\u4ef7_\u51e4\u51f0\u7f51](https://auto.ifeng.com/c/8kmhhQjuKVr)",
+    "metadata": [
+      "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0417%2Fae1ec188j00sutj40001kd000p000irg.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+      "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+      "https://i2.autoimg.cn/ucsystemdfs/g31/M09/27/4C/120X120_0_q87_autohomecar__ChtlyGexyhKAIacYAAFVgoSyF7Y702.jpg",
+      "https://sucimg.itc.cn/avatarimg/aaa564e9d2fa4e79bc3cca436868a3f7_1446019383031",
+      "https://k.autohome.com.cn/detail/view_01jtg62dnm6mv30c1n6msg0000.html",
+      "https://k.autohome.com.cn/detail/view_01jtg70jqx6mv30c1n6mv00000.html",
+      "https://xavatar.imedao.com/community/20253/1744429798484-1744429798688.png!100x100.png",
+      "https://xqimg.imedao.com/195839f014550eb03fe1f120.png!800.jpg",
+      "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0513%2F8562e1aej00sw6zz200nmd200u000cvg00it0082.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+      "https://i6.3conline.com/images/upload/upc/face/52/21/29/90/52212990_120x120?t=202507171611"
+    ]
+  }
+}

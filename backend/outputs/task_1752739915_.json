@@ -1,0 +1,702 @@
+{
+  "timestamp": "2025-07-17T08:11:55.552895",
+  "events": [
+    {
+      "timestamp": "2025-07-17T08:12:00.530768",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cM8\u548c\u5c0f\u7c73YU7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c, \u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90\uff0c\u5f53\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u65f6\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:00.531010",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcca \u6c7d\u8f66\u884c\u4e1a\u6570\u636e\u5206\u6790\u5e08Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:00.531558",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:01.925201",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:19.935468",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['\u95ee\u754cM8 \u5c0f\u7c73YU7 2025\u6b3e \u53c2\u6570\u914d\u7f6e\u8868 \u5bf9\u6bd4', '2025 \u95ee\u754cM8 \u5c0f\u7c73YU7 \u7ade\u54c1\u5206\u6790 \u4e13\u4e1a\u8bc4\u6d4b', '\u95ee\u754cM8 \u5bf9\u6bd4 \u5c0f\u7c73YU7 \u6838\u5fc3\u4f18\u52bf \u5e02\u573a\u5b9a\u4f4d 2025']...",
+        "metadata": [
+          "\u95ee\u754cM8 \u5c0f\u7c73YU7 2025\u6b3e \u53c2\u6570\u914d\u7f6e\u8868 \u5bf9\u6bd4",
+          "2025 \u95ee\u754cM8 \u5c0f\u7c73YU7 \u7ade\u54c1\u5206\u6790 \u4e13\u4e1a\u8bc4\u6d4b",
+          "\u95ee\u754cM8 \u5bf9\u6bd4 \u5c0f\u7c73YU7 \u6838\u5fc3\u4f18\u52bf \u5e02\u573a\u5b9a\u4f4d 2025",
+          "1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cM8\u548c\u5c0f\u7c73YU7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c, \u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90\uff0c\u5f53\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u65f6\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:19.935818",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u5c0f\u7c73YU7 2025\u6b3e \u53c2\u6570\u914d\u7f6e\u8868 \u5bf9\u6bd4' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:19.937193",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '2025 \u95ee\u754cM8 \u5c0f\u7c73YU7 \u7ade\u54c1\u5206\u6790 \u4e13\u4e1a\u8bc4\u6d4b' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:19.938416",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u95ee\u754cM8 \u5bf9\u6bd4 \u5c0f\u7c73YU7 \u6838\u5fc3\u4f18\u52bf \u5e02\u573a\u5b9a\u4f4d 2025' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:19.939543",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cM8\u548c\u5c0f\u7c73YU7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c, \u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90\uff0c\u5f53\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u65f6\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.698280",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://post.m.smzdm.com/p/az70xorr/\n",
+        "metadata": "https://post.m.smzdm.com/p/az70xorr/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.698591",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://new.qq.com/rain/a/20250328A07DCG00\n",
+        "metadata": "https://new.qq.com/rain/a/20250328A07DCG00"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.699125",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/JNGAI3A20546GXF9.html\n",
+        "metadata": "https://3g.163.com/news/article/JNGAI3A20546GXF9.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.699690",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/98076985/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/98076985/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.700396",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.itbear.com.cn/html/2025-02/718948.html\n",
+        "metadata": "http://m.itbear.com.cn/html/2025-02/718948.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.700926",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JNKGU9VF05525259.html?spss=dy_author\n",
+        "metadata": "https://m.163.com/dy/article/JNKGU9VF05525259.html?spss=dy_author"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.701505",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://hao.m.yiche.com/wenzhang/97583437/\n",
+        "metadata": "https://hao.m.yiche.com/wenzhang/97583437/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.702058",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/news/article/JON5LTCA0552YPJK.html\n",
+        "metadata": "https://m.163.com/news/article/JON5LTCA0552YPJK.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.702646",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/875558856_121924584/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/875558856_121924584/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.703543",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/860710301_121924584/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/860710301_121924584/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.704144",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:20.704738",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.164907",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.165381",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 70 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0203%2F32a98c62j00sr3sds0029d000xc00m8m.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+          "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+          "http://inews.gtimg.com/newsapp_ls/0/12922132622_200200/0",
+          "https://inews.gtimg.com/om_bt/O7sY4S4H07SGJNDssVpO8E2B5hu-m9tBroCIqdyyLAqA4AA/641"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.165945",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.166644",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cM8\u548c\u5c0f\u7c73YU7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c, \u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90\uff0c\u5f53\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u65f6\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.568068",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.yoojia.com/dongtai/5342372002?from_src=biji_tab\n",
+        "metadata": "https://m.yoojia.com/dongtai/5342372002?from_src=biji_tab"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.568695",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://hao.m.yiche.com/wenzhang/99279578/\n",
+        "metadata": "https://hao.m.yiche.com/wenzhang/99279578/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.570479",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JNGAI3A20546GXF9.html\n",
+        "metadata": "https://m.163.com/dy/article/JNGAI3A20546GXF9.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.571405",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97593330/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97593330/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.571972",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://chejiahao.autohome.com.cn/info/19197690\n",
+        "metadata": "http://chejiahao.autohome.com.cn/info/19197690"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.572646",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.autohome.com.cn/news/201403/1303778.html\n",
+        "metadata": "https://www.autohome.com.cn/news/201403/1303778.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.573311",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97583437/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97583437/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.573973",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.574659",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 7 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.668921",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/860728320_122066676/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/860728320_122066676/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.669461",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/860728118_362225/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/860728118_362225/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.670130",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/860748372_122066676/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/860748372_122066676/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.670901",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97927859/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97927859/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.671633",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.672402",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 4 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.753906",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/K3VIK80L0511D91O.html\n",
+        "metadata": "https://3g.163.com/news/article/K3VIK80L0511D91O.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.754506",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.dongchedi.com/article/7447894577786225179\n",
+        "metadata": "https://m.dongchedi.com/article/7447894577786225179"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.755969",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://news.m.yiche.com/hao/wenzhang/97620324/\n",
+        "metadata": "https://news.m.yiche.com/hao/wenzhang/97620324/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.756534",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.36kr.com/p/3172117849538054\n",
+        "metadata": "https://m.36kr.com/p/3172117849538054"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.757347",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://chejiahao.autohome.com.cn/comment/19187136\n",
+        "metadata": "https://chejiahao.autohome.com.cn/comment/19187136"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.758294",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://xueqiu.com/6549391507/336102927\n",
+        "metadata": "https://xueqiu.com/6549391507/336102927"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.759013",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1823133607387456686\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1823133607387456686"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.762461",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.zol.com.cn/article/9520354.html\n",
+        "metadata": "https://m.zol.com.cn/article/9520354.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.763658",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/848535152_121850794/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/848535152_121850794/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.764485",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:21.765363",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.396055",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 6 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.396837",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 52 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://z.autoimg.cn/pcm/article/default_big.png?cache_ttl=1800",
+          "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/logo.png",
+          "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/serch.svg",
+          "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/header-logout.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.397663",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.398547",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u5bf9\u6bd4 \u5c0f\u7c73YU7 \u6838\u5fc3\u4f18\u52bf \u5e02\u573a\u5b9a\u4f4d 2025...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.533885",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 4 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.534678",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 13 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://p7.itc.cn/q_70,c_lfill,w_60,h_60,g_face/mpbp/pro/20201010/5803eb73a00a4d39b35103420a78a0b8.jpeg",
+          "https://q8.itc.cn/q_70,c_lfill,w_60,h_60,g_face/images03/20241011/a49dee5461004a60bd3ce9137c47c731.png",
+          "https://static1.bitautoimg.com/yc-pc/bitautoPC/static/images/header-logout.png",
+          "https://static1.bitautoimg.com/yc-common/imgs/lazyload-brand.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.535507",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:22.536441",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u95ee\u754cM8 \u5c0f\u7c73YU7 2025\u6b3e \u53c2\u6570\u914d\u7f6e\u8868 \u5bf9\u6bd4...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:23.452469",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:23.453336",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 60 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://cjh2.autoimg.cn/chejiahaodfs/g17/M0F/CC/8D/82x82_q100_c40_autohomecar__ChwEo2Bvt1GAHLWIAAGG294vNwQ142.jpg",
+          "https://cjh2.autoimg.cn/chejiahaodfs/g32/M06/D5/B3/148x82_q100_autohomecar__ChxkPmh4VAmAedc6ABXB7rndAbA782.png",
+          "https://cjh2.autoimg.cn/chejiahaodfs/g26/M03/55/6E/148x82_q100_autohomecar__CjIFVmh4To-AKuLBAA1dT3zRRoA021.png",
+          "https://cjh2.autoimg.cn/chejiahaodfs/g31/M06/71/88/148x82_q100_autohomecar__ChtlyGh3mFCAZOL8ABdRTkKyNRI592.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:23.454199",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:23.455098",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a2025 \u95ee\u754cM8 \u5c0f\u7c73YU7 \u7ade\u54c1\u5206\u6790 \u4e13\u4e1a\u8bc4\u6d4b...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:25.709045",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "research_step_finalized",
+        "output": "\u7814\u7a76\u6b65\u9aa4\u5df2\u5b8c\u6210\u3002\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:12:25.711237",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "writing_report",
+        "output": "\u270d\ufe0f \u6b63\u5728\u4e3a '1.\u751f\u6210\u8fd9\u4e24\u4e2a\u8f66\u578b:\u95ee\u754cM8\u548c\u5c0f\u7c73YU7\u7684\u7ade\u54c1\u8f66\u578b\u53c2\u6570\u5bf9\u6bd4\u8868\u683c, \u4e0d\u8981\u5728\u8868\u683c\u4e2d\u6dfb\u52a0\u5f15\u7528\u6765\u6e90\uff0c\u5f53\u540c\u4e00\u8f66\u578b\u6709\u4e0d\u540c\u7248\u672c\u65f6\u6700\u591a\u5c55\u793a\u4e24\u4e2a\u7248\u672c 2.\u6839\u636e\u53c2\u6570\u5bf9\u6bd4\u8868\u683c\u8fdb\u884c\u5bf9\u6bd4\u5206\u6790 3.\u5f97\u51fa\u7ade\u54c1\u5bf9\u6bd4\u7ed3\u8bba\u3002' \u64b0\u5199\u62a5\u544a...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0,
+    "type": "report",
+    "content": "selected_images",
+    "output": "\u8f66\u8eab\u5c3a\u5bf8**\uff08\u957f\u00d7\u5bbd\u00d7\u9ad8\uff0cmm\uff09 | 5190\u00d71999\u00d71795 | 5190\u00d71999\u00d71795 | 4999\u00d71996\u00d71608 | 4999\u00d71996\u00d71608 |\n|",
+    "metadata": [
+      "https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2025%2F0203%2F32a98c62j00sr3sds0029d000xc00m8m.jpg&thumbnail=750x2147483647&quality=75&type=jpg",
+      "https://static.ws.126.net/163/frontend/images/2022/empty.png",
+      "http://inews.gtimg.com/newsapp_ls/0/12922132622_200200/0",
+      "https://inews.gtimg.com/om_bt/O7sY4S4H07SGJNDssVpO8E2B5hu-m9tBroCIqdyyLAqA4AA/641",
+      "https://z.autoimg.cn/pcm/article/default_big.png?cache_ttl=1800",
+      "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/logo.png",
+      "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/serch.svg",
+      "https://static1.bitautoimg.com/yc-m/bitautoM/static/images/header-logout.png",
+      "https://p7.itc.cn/q_70,c_lfill,w_60,h_60,g_face/mpbp/pro/20201010/5803eb73a00a4d39b35103420a78a0b8.jpeg",
+      "https://q8.itc.cn/q_70,c_lfill,w_60,h_60,g_face/images03/20241011/a49dee5461004a60bd3ce9137c47c731.png"
+    ]
+  }
+}

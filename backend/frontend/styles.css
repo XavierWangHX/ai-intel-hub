@@ -1299,6 +1299,33 @@ textarea#task {
     color: #FFFFFF;
 }
 
+
+/* Consistent icon styles for various file types */
+.history-entry-format a.history-entry-action i {
+    font-size: 0.9rem;
+}
+
+/* PDF icon */
+.history-entry-format a.history-entry-action i.fa-file-pdf {
+    color: #FF5252;
+}
+
+/* Word icon */
+.history-entry-format a.history-entry-action i.fa-file-word {
+    color: #4285F4;
+}
+
+/* Markdown icon */
+.history-entry-format a.history-entry-action i.fa-file-lines {
+    color: #42A5F5;
+}
+
+/* JSON icon */
+.history-entry-format a.history-entry-action i.fa-file-code {
+    color: #FFB300;
+}
+
+
 .history-entry-action i {
     font-size: 0.8rem;
 }
@@ -2523,5 +2550,7 @@ textarea#task {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+
 
 

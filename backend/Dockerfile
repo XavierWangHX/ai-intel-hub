@@ -58,7 +58,7 @@ ENV PORT=${PORT}
 EXPOSE ${PORT}
 
 # Uvicorn parameters used in CMD
-ARG WORKERS=16
+ARG WORKERS=1000
 ENV WORKERS=${WORKERS}
 
 # Create a non-root user for security

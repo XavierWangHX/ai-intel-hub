@@ -1,0 +1,747 @@
+{
+  "timestamp": "2025-07-17T06:31:54.155864",
+  "events": [
+    {
+      "timestamp": "2025-07-17T06:32:08.772542",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:08.772782",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\ude80 \u4f4e\u7a7a\u7ecf\u6d4e\u4e0e\u672a\u6765\u4ea4\u901a\u6280\u672f\u5206\u6790\u5e08Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:08.773402",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:10.556708",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:28.397836",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "subqueries",
+        "output": "\ud83d\uddc2\ufe0f \u6211\u5c06\u57fa\u4e8e\u4ee5\u4e0b\u5b50\u4efb\u52a1\u8fdb\u884c\u7814\u7a76\uff1a['\u4f4e\u7a7a\u7ecf\u6d4e \u98de\u884c\u6c7d\u8f66 \u5e02\u573a\u89c4\u6a21 \u6280\u672f\u8fdb\u5c55 \u653f\u7b56\u652f\u6301 2025\u6700\u65b0\u6570\u636e', '\u98de\u884c\u6c7d\u8f66 eVTOL \u9002\u822a\u8ba4\u8bc1 \u5546\u4e1a\u5316\u6311\u6218 \u7a7a\u57df\u7ba1\u7406 \u6700\u65b0\u653f\u7b56', '\u4f4e\u7a7a\u7ecf\u6d4e\u4ea7\u4e1a\u94fe \u5e94\u7528\u573a\u666f \u57fa\u7840\u8bbe\u65bd \u7ade\u4e89\u683c\u5c40 \u98ce\u9669\u5206\u6790 2025\u62a5\u544a']...",
+        "metadata": [
+          "\u4f4e\u7a7a\u7ecf\u6d4e \u98de\u884c\u6c7d\u8f66 \u5e02\u573a\u89c4\u6a21 \u6280\u672f\u8fdb\u5c55 \u653f\u7b56\u652f\u6301 2025\u6700\u65b0\u6570\u636e",
+          "\u98de\u884c\u6c7d\u8f66 eVTOL \u9002\u822a\u8ba4\u8bc1 \u5546\u4e1a\u5316\u6311\u6218 \u7a7a\u57df\u7ba1\u7406 \u6700\u65b0\u653f\u7b56",
+          "\u4f4e\u7a7a\u7ecf\u6d4e\u4ea7\u4e1a\u94fe \u5e94\u7528\u573a\u666f \u57fa\u7840\u8bbe\u65bd \u7ade\u4e89\u683c\u5c40 \u98ce\u9669\u5206\u6790 2025\u62a5\u544a",
+          "\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:28.398232",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u4f4e\u7a7a\u7ecf\u6d4e \u98de\u884c\u6c7d\u8f66 \u5e02\u573a\u89c4\u6a21 \u6280\u672f\u8fdb\u5c55 \u653f\u7b56\u652f\u6301 2025\u6700\u65b0\u6570\u636e' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:28.399956",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u98de\u884c\u6c7d\u8f66 eVTOL \u9002\u822a\u8ba4\u8bc1 \u5546\u4e1a\u5316\u6311\u6218 \u7a7a\u57df\u7ba1\u7406 \u6700\u65b0\u653f\u7b56' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:28.401565",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u4f4e\u7a7a\u7ecf\u6d4e\u4ea7\u4e1a\u94fe \u5e94\u7528\u573a\u666f \u57fa\u7840\u8bbe\u65bd \u7ade\u4e89\u683c\u5c40 \u98ce\u9669\u5206\u6790 2025\u62a5\u544a' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:28.402882",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "running_subquery_research",
+        "output": "\n\ud83d\udd0d \u6b63\u5728\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a' \u8fdb\u884c\u7814\u7a76...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.713314",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/hyzx/20250512/172259973.shtml\n",
+        "metadata": "https://m.chinairn.com/hyzx/20250512/172259973.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.713679",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://3g.163.com/news/article/JC72BQJA051998SC.html\n",
+        "metadata": "https://3g.163.com/news/article/JC72BQJA051998SC.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.714360",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.toutiao.com/article/7415944590747812415/\n",
+        "metadata": "https://m.toutiao.com/article/7415944590747812415/"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.714919",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/fund/sm/2024-12-16/detail-inczsfym5691967.d.html\n",
+        "metadata": "https://finance.sina.cn/fund/sm/2024-12-16/detail-inczsfym5691967.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.715676",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.book118.com/html/2024/1228/8037062024007013.shtm\n",
+        "metadata": "https://m.book118.com/html/2024/1228/8037062024007013.shtm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.716209",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/811477930_121733765/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/811477930_121733765/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.716875",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://doc.mbalib.com/view/1011168dc1c57c71ac16d8e1d03090c8.html\n",
+        "metadata": "https://doc.mbalib.com/view/1011168dc1c57c71ac16d8e1d03090c8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.717448",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.thepaper.cn/newsDetail_forward_29720887\n",
+        "metadata": "https://m.thepaper.cn/newsDetail_forward_29720887"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.718021",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/895079856_121822496/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/895079856_121822496/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.718630",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:29.719192",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.087580",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://xueqiu.com/1375373555/324604328\n",
+        "metadata": "https://xueqiu.com/1375373555/324604328"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.088018",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/news/20250401/150609151.shtml\n",
+        "metadata": "https://m.chinairn.com/news/20250401/150609151.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.088885",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JR3FMDV205199DKK.html?spss=dy_author\n",
+        "metadata": "https://m.163.com/dy/article/JR3FMDV205199DKK.html?spss=dy_author"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.089546",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://baijiahao.baidu.com/s?id=1836270807953122635\n",
+        "metadata": "https://baijiahao.baidu.com/s?id=1836270807953122635"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.090135",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.gov.cn/govweb/yaowen/liebiao/202502/content_7004451.htm\n",
+        "metadata": "https://www.gov.cn/govweb/yaowen/liebiao/202502/content_7004451.htm"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.090790",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinabgao.com/info/1271057.html\n",
+        "metadata": "https://m.chinabgao.com/info/1271057.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.091393",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://caifuhao.eastmoney.com/news/20250508100526617492120\n",
+        "metadata": "https://caifuhao.eastmoney.com/news/20250508100526617492120"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.092029",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/hyzx/20250620/164956503.shtml\n",
+        "metadata": "https://m.chinairn.com/hyzx/20250620/164956503.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.092672",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/2025-01-22/detail-inefvkhc7156715.d.html\n",
+        "metadata": "https://finance.sina.cn/2025-01-22/detail-inefvkhc7156715.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.093333",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.093972",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 9 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.139201",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/JFIUSR8O05503O4L.html\n",
+        "metadata": "https://m.163.com/dy/article/JFIUSR8O05503O4L.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.140333",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/904062620_323087/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/904062620_323087/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.141625",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.donews.com/news/detail/4/5223797.html\n",
+        "metadata": "https://www.donews.com/news/detail/4/5223797.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.143300",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.sina.cn/article_1461887147_5722a0ab00100zpn2.html?from=auto&vt=4\n",
+        "metadata": "https://k.sina.cn/article_1461887147_5722a0ab00100zpn2.html?from=auto&vt=4"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.144765",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.12365auto.com/news/20250430/547123.shtml\n",
+        "metadata": "https://www.12365auto.com/news/20250430/547123.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.145829",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/910802543_122467520\n",
+        "metadata": "https://m.sohu.com/a/910802543_122467520"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.146629",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.163.com/dy/article/K3RT3S0N055616ZT.html\n",
+        "metadata": "https://m.163.com/dy/article/K3RT3S0N055616ZT.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.147578",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/2025-05-19/detail-inexazpu7609279.d.html\n",
+        "metadata": "https://finance.sina.cn/2025-05-19/detail-inexazpu7609279.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.150605",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttp://m.itbear.com.cn/html/2024-09/514075.html\n",
+        "metadata": "http://m.itbear.com.cn/html/2024-09/514075.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.152621",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/2025-04-27/detail-ineuqumy3007428.d.html\n",
+        "metadata": "https://finance.sina.cn/2025-04-27/detail-ineuqumy3007428.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.157544",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.161075",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.254744",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.iimedia.cn/c1020/105125.html\n",
+        "metadata": "https://www.iimedia.cn/c1020/105125.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.256630",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.chinairn.com/hyzx/20241227/161444454.shtml\n",
+        "metadata": "https://m.chinairn.com/hyzx/20241227/161444454.shtml"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.258186",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/875219049_121713417/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/875219049_121713417/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.259857",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://finance.sina.cn/2025-07-09/detail-infevnxy9771844.d.html\n",
+        "metadata": "https://finance.sina.cn/2025-07-09/detail-infevnxy9771844.d.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.262776",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/898217508_121948943/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/898217508_121948943/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.263332",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://k.sina.cn/article_1708813312_65da6c0001901e0w8.html\n",
+        "metadata": "https://k.sina.cn/article_1708813312_65da6c0001901e0w8.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.264080",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/909741654_121972177/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/909741654_121972177/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.264895",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.renrendoc.com/paper/401285661.html\n",
+        "metadata": "https://m.renrendoc.com/paper/401285661.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.265712",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://m.sohu.com/a/896154721_121776441/?pvid=000115_3w_a\n",
+        "metadata": "https://m.sohu.com/a/896154721_121776441/?pvid=000115_3w_a"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.266685",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "added_source_url",
+        "output": "\u2705 \u5df2\u5c06\u6e90URL\u6dfb\u52a0\u5230\u7814\u7a76\uff1ahttps://www.iimedia.cn/105107.html\n",
+        "metadata": "https://www.iimedia.cn/105107.html"
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.267482",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "researching",
+        "output": "\ud83e\udd14 \u6b63\u5728\u8de8\u591a\u4e2a\u6e90\u7814\u7a76\u76f8\u5173\u4fe1\u606f...\n",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.268283",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_urls",
+        "output": "\ud83c\udf10 \u6b63\u5728\u4ece 10 \u4e2aURL\u4e2d\u6293\u53d6\u5185\u5bb9...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.498357",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.499145",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 50 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://m.chinairn.com/upload/hy12x1.jpg",
+          "https://m.chinairn.com/upload/hy12x2.jpg",
+          "https://m.chinairn.com/upload/hy12x3.jpg",
+          "https://www.chinairn.com/report/20250527/173505946.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.500018",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:30.500921",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u4f4e\u7a7a\u7ecf\u6d4e \u98de\u884c\u6c7d\u8f66 \u5e02\u573a\u89c4\u6a21 \u6280\u672f\u8fdb\u5c55 \u653f\u7b56\u652f\u6301 2025\u6700\u65b0\u6570\u636e...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.288550",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.289353",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 43 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/834.jpg",
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/835.jpg",
+          "https://imagepphcloud.thepaper.cn/pph/image/334/457/836.jpg",
+          "http://www.chinairn.com/userFiles/image/20250512/20250512172036_8047.jpg"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.290257",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.291194",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u5173\u4e8e\u4f4e\u7a7a\u7ecf\u6d4e\u548c\u98de\u884c\u6c7d\u8f66\u7684\u4ea7\u4e1a\u76f8\u5173\u8c03\u7814\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.669204",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 10 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.670199",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 48 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://img.iimedia.cn/0000148b038c5df46d54f97db0c273b45fabade8cc4e5d21a4deab84097504df286ef",
+          "https://img.iimedia.cn/100011503ce984eaef675c6537440158c319e0e98000cbf9b482abd7f20b990a34dd9",
+          "https://www.iimedia.cn/_nuxt/img/slogan-report.773b86a.gif",
+          "https://www.iimedia.cn/go/commonres/img/imw/data-chart/n07.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.671441",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:33.672408",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u4f4e\u7a7a\u7ecf\u6d4e\u4ea7\u4e1a\u94fe \u5e94\u7528\u573a\u666f \u57fa\u7840\u8bbe\u65bd \u7ade\u4e89\u683c\u5c40 \u98ce\u9669\u5206\u6790 2025\u62a5\u544a...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:34.284042",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_content",
+        "output": "\ud83d\udcc4 \u5df2\u6293\u53d6 8 \u9875\u5185\u5bb9",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:34.284890",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_images",
+        "output": "\ud83d\uddbc\ufe0f \u4ece 40 \u5f20\u56fe\u7247\u4e2d\u9009\u62e9\u4e86 4 \u5f20\u65b0\u56fe\u7247",
+        "metadata": [
+          "https://k.sinaimg.cn/n/sinakd20101/200/w640h360/20250418/873e-d42751e683e02ba32f149f5028588574.jpg/w700d1q75cms.jpg",
+          "https://tvax4.sinaimg.cn/crop.101.45.373.373.180/5722a0ably8ger3feumfmj20gd0bngmn.jpg?KID=imgbed,tva&Expires=1752742709&ssig=E3pzDkf3dw",
+          "http://auto.sinaimg.cn/autoimg/serial/53/65/removebg_67b81f9d69327202502216553_280.png",
+          "http://auto.sinaimg.cn/autoimg/serial/64/79/removebg_67b821233f311202502217964_280.png"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:34.285824",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "scraping_complete",
+        "output": "\ud83c\udf10 \u6293\u53d6\u5b8c\u6210",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T06:32:34.286772",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "fetching_query_content",
+        "output": "\ud83d\udcda \u6b63\u5728\u6839\u636e\u67e5\u8be2\u83b7\u53d6\u76f8\u5173\u5185\u5bb9\uff1a\u98de\u884c\u6c7d\u8f66 eVTOL \u9002\u822a\u8ba4\u8bc1 \u5546\u4e1a\u5316\u6311\u6218 \u7a7a\u57df\u7ba1\u7406 \u6700\u65b0\u653f\u7b56...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}

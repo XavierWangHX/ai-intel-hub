@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-17T08:16:08.843378",
+  "events": [
+    {
+      "timestamp": "2025-07-17T08:16:13.417697",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d \u5f00\u59cb\u5bf9 '\u5e2e\u6211\u751f\u6210\u4e00\u4efd\u4e3a\u6c7d\u8f66\u884c\u4e1a\u9ad8\u6821\u7814\u7a76\u751f\u5bfc\u5e08\u4ecb\u7ecd\u8d5b\u529b\u65af\u7684\u62a5\u544a' \u8fdb\u884c\u7814\u7a76\u4efb\u52a1...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:16:13.417891",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\ude97 \u6c7d\u8f66\u884c\u4e1a\u5b66\u672f\u7814\u7a76\u4e13\u5bb6Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:16:13.418487",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 \u6d4f\u89c8\u7f51\u7edc\u4ee5\u4e86\u89e3\u66f4\u591a\u5173\u4e8e\u4efb\u52a1\u7684\u4fe1\u606f...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-07-17T08:16:15.077711",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 \u5236\u5b9a\u7814\u7a76\u8ba1\u5212\u548c\u4efb\u52a1\u62c6\u89e3...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}

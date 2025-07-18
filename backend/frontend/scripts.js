@@ -2189,7 +2189,7 @@ const SeresResearcher = (() => {
     });
 
     // Add welcome message
-    addChatMessage('I can answer questions about the research report. What would you like to know?', false);
+    addChatMessage('我可以回答关于这份研究报告的问题。您想了解什么？', false);
   }
 
   // Initialize speech recognition
